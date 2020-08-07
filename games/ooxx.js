@@ -5581,10 +5581,10 @@ var $author$project$BoardGameFramework$open = F3(
 	});
 var $author$project$Main$outgoing = _Platform_outgoingPort('outgoing', $elm$core$Basics$identity);
 var $author$project$BoardGameFramework$Server = $elm$core$Basics$identity;
-var $author$project$BoardGameFramework$wsServer = function (domain) {
-	return {af: $elm$core$Maybe$Nothing, X: 'ws://' + domain};
+var $author$project$BoardGameFramework$wssServer = function (domain) {
+	return {af: $elm$core$Maybe$Nothing, X: 'wss://' + domain};
 };
-var $author$project$Main$server = $author$project$BoardGameFramework$wsServer('bgf.pigsaw.org');
+var $author$project$Main$server = $author$project$BoardGameFramework$wssServer('bgf.pigsaw.org');
 var $author$project$Main$openCmd = A2($author$project$BoardGameFramework$open, $author$project$Main$outgoing, $author$project$Main$server);
 var $elm$core$Basics$pow = _Basics_pow;
 var $elm$core$Maybe$withDefault = F2(

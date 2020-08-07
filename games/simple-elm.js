@@ -5266,10 +5266,10 @@ var $author$project$BoardGameFramework$send = F3(
 		return cmder(encode);
 	});
 var $author$project$BoardGameFramework$Server = $elm$core$Basics$identity;
-var $author$project$BoardGameFramework$wsServer = function (domain) {
-	return {y: $elm$core$Maybe$Nothing, t: 'ws://' + domain};
+var $author$project$BoardGameFramework$wssServer = function (domain) {
+	return {y: $elm$core$Maybe$Nothing, t: 'wss://' + domain};
 };
-var $author$project$Main$server = $author$project$BoardGameFramework$wsServer('bgf.pigsaw.org');
+var $author$project$Main$server = $author$project$BoardGameFramework$wssServer('bgf.pigsaw.org');
 var $elm$core$Maybe$withDefault = F2(
 	function (_default, maybe) {
 		if (!maybe.$) {
