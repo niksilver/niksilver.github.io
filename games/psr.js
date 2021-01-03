@@ -13544,15 +13544,20 @@ var $mdgriffith$elm_ui$Element$text = function (content) {
 };
 var $mdgriffith$elm_ui$Element$Font$underline = $mdgriffith$elm_ui$Internal$Model$htmlClass($mdgriffith$elm_ui$Internal$Style$classes.eI);
 var $author$project$Main$viewInvitation = function (urlString) {
-	var roomString = function () {
-		var _v0 = A2($elm$core$String$indexes, '#', urlString);
-		if (_v0.b) {
-			var i = _v0.a;
-			return A2($elm$core$String$dropLeft, i + 1, urlString);
+	var hashIndexes = A2($elm$core$String$indexes, '#', urlString);
+	var _v0 = function () {
+		var _v1 = A2($elm$core$String$indexes, '#', urlString);
+		if (_v1.b) {
+			var i = _v1.a;
+			return _Utils_Tuple2(
+				A2($elm$core$String$left, i, urlString),
+				A2($elm$core$String$dropLeft, i + 1, urlString));
 		} else {
-			return '[unknown]';
+			return _Utils_Tuple2('[unknown]', '[unknown]');
 		}
 	}();
+	var restartLink = _v0.a;
+	var roomString = _v0.b;
 	return $author$project$UI$paddedRow(
 		_List_fromArray(
 			[
@@ -13570,7 +13575,17 @@ var $author$project$Main$viewInvitation = function (urlString) {
 							dI: $mdgriffith$elm_ui$Element$text(urlString),
 							H: urlString
 						}),
-						$mdgriffith$elm_ui$Element$text(' or use room name ' + roomString)
+						$mdgriffith$elm_ui$Element$text(' or give them room name ' + (roomString + '. ')),
+						$mdgriffith$elm_ui$Element$text('You can also '),
+						A2(
+						$mdgriffith$elm_ui$Element$link,
+						_List_fromArray(
+							[$mdgriffith$elm_ui$Element$pointer, $mdgriffith$elm_ui$Element$Font$underline]),
+						{
+							dI: $mdgriffith$elm_ui$Element$text('find another room'),
+							H: restartLink
+						}),
+						$mdgriffith$elm_ui$Element$text('.')
 					]))
 			]));
 };
