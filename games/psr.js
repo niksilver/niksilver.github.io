@@ -13780,19 +13780,19 @@ var $author$project$Main$viewNamedPlayerShape = F2(
 							$mdgriffith$elm_ui$Element$el,
 							_List_fromArray(
 								[$mdgriffith$elm_ui$Element$centerX]),
-							A3($author$project$UI$image, 'Paper', '../images/paper.svg', 250));
+							A3($author$project$UI$image, 'Paper', 'images/paper.svg', 250));
 					case 1:
 						return A2(
 							$mdgriffith$elm_ui$Element$el,
 							_List_fromArray(
 								[$mdgriffith$elm_ui$Element$centerX]),
-							A3($author$project$UI$image, 'Scissors', '../images/scissors.svg', 250));
+							A3($author$project$UI$image, 'Scissors', 'images/scissors.svg', 250));
 					default:
 						return A2(
 							$mdgriffith$elm_ui$Element$el,
 							_List_fromArray(
 								[$mdgriffith$elm_ui$Element$centerX]),
-							A3($author$project$UI$image, 'Rock', '../images/rock.svg', 250));
+							A3($author$project$UI$image, 'Rock', 'images/rock.svg', 250));
 				}
 			}());
 	});
@@ -14246,7 +14246,7 @@ var $author$project$Main$viewShapeButtons = A2(
 			$author$project$UI$longButton(
 			{
 				P: true,
-				Q: A3($author$project$UI$image, 'Paper', '../images/paper.svg', 28),
+				Q: A3($author$project$UI$image, 'Paper', 'images/paper.svg', 28),
 				T: $elm$core$Maybe$Just(
 					$author$project$Main$ConfirmedShow(0)),
 				W: 'Paper'
@@ -14254,7 +14254,7 @@ var $author$project$Main$viewShapeButtons = A2(
 			$author$project$UI$longButton(
 			{
 				P: true,
-				Q: A3($author$project$UI$image, 'Scissors', '../images/scissors.svg', 28),
+				Q: A3($author$project$UI$image, 'Scissors', 'images/scissors.svg', 28),
 				T: $elm$core$Maybe$Just(
 					$author$project$Main$ConfirmedShow(1)),
 				W: 'Scissors'
@@ -14262,7 +14262,7 @@ var $author$project$Main$viewShapeButtons = A2(
 			$author$project$UI$longButton(
 			{
 				P: true,
-				Q: A3($author$project$UI$image, 'Rock', '../images/rock.svg', 28),
+				Q: A3($author$project$UI$image, 'Rock', 'images/rock.svg', 28),
 				T: $elm$core$Maybe$Just(
 					$author$project$Main$ConfirmedShow(2)),
 				W: 'Rock'
