@@ -13340,17 +13340,6 @@ var $mdgriffith$elm_ui$Internal$Model$AlignY = function (a) {
 };
 var $mdgriffith$elm_ui$Internal$Model$Top = 0;
 var $mdgriffith$elm_ui$Element$alignTop = $mdgriffith$elm_ui$Internal$Model$AlignY(0);
-var $author$project$Main$hasPlayed = function (client) {
-	var _v0 = client.v;
-	if ((_v0.$ === 1) && (_v0.a.$ === 1)) {
-		return true;
-	} else {
-		return false;
-	}
-};
-var $author$project$Main$allHavePlayed = function (clients) {
-	return 2 === A2($author$project$BoardGameFramework$Clients$filterLength, $author$project$Main$hasPlayed, clients);
-};
 var $mdgriffith$elm_ui$Internal$Model$AsColumn = 1;
 var $mdgriffith$elm_ui$Internal$Model$asColumn = 1;
 var $mdgriffith$elm_ui$Internal$Model$Height = function (a) {
@@ -13386,6 +13375,17 @@ var $elm$core$Basics$composeL = F3(
 		return g(
 			f(x));
 	});
+var $author$project$Main$hasPlayed = function (client) {
+	var _v0 = client.v;
+	if ((_v0.$ === 1) && (_v0.a.$ === 1)) {
+		return true;
+	} else {
+		return false;
+	}
+};
+var $author$project$Main$countOfPlayed = function (clients) {
+	return A2($author$project$BoardGameFramework$Clients$filterLength, $author$project$Main$hasPlayed, clients);
+};
 var $mdgriffith$elm_ui$Internal$Model$Fill = function (a) {
 	return {$: 2, a: a};
 };
@@ -14604,7 +14604,7 @@ var $author$project$Main$viewUserBar = F4(
 							]),
 						$author$project$UI$shortCentredButton(
 							{
-								P: amPlayer,
+								P: $author$project$Main$countOfPlayed(clients) >= 1,
 								Q: $mdgriffith$elm_ui$Element$none,
 								T: $elm$core$Maybe$Just($author$project$Main$ConfirmedAnother),
 								W: 'Play again'
@@ -14614,7 +14614,7 @@ var $author$project$Main$viewUserBar = F4(
 	});
 var $author$project$Main$viewGame = F3(
 	function (urlString, clients, myId) {
-		var showHands = $author$project$Main$allHavePlayed(clients);
+		var showHands = $author$project$Main$countOfPlayed(clients) === 2;
 		var players = $author$project$Main$playerList(clients);
 		var playerVacancy = $elm$core$List$length(players) < 2;
 		var observers = A2(
