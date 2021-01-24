@@ -4945,7 +4945,7 @@ var $elm$url$Url$Http = 0;
 var $elm$url$Url$Https = 1;
 var $elm$url$Url$Url = F6(
 	function (protocol, host, port_, path, query, fragment) {
-		return {bl: fragment, bZ: host, cc: path, cf: port_, ci: protocol, cj: query};
+		return {bm: fragment, bZ: host, cc: path, cf: port_, ci: protocol, cj: query};
 	});
 var $elm$core$String$contains = _String_contains;
 var $elm$core$String$length = _String_length;
@@ -5456,7 +5456,7 @@ var $elm$random$Random$uniform = F2(
 			A2($elm$core$List$map, $elm$random$Random$addOne, valueList));
 	});
 var $author$project$Words$words = _List_fromArray(
-	['abandon', 'ability', 'able', 'abortion', 'about', 'above', 'abroad', 'absence', 'absolute', 'absorb', 'abuse', 'academic', 'accept', 'access', 'accident', 'account', 'accurate', 'accuse', 'achieve', 'acid', 'acquire', 'across', 'act', 'action', 'active', 'activist', 'activity', 'actor', 'actress', 'actual', 'actually', 'adapt', 'add', 'addition', 'address', 'adequate', 'adjust', 'admire', 'admit', 'adopt', 'adult', 'advance', 'advanced', 'advice', 'advise', 'adviser', 'advocate', 'affair', 'affect', 'afford', 'afraid', 'after', 'again', 'against', 'age', 'agency', 'agenda', 'agent', 'ago', 'agree', 'ahead', 'aid', 'aide', 'aim', 'air', 'aircraft', 'airline', 'airport', 'album', 'alcohol', 'alive', 'all', 'alliance', 'allow', 'ally', 'almost', 'alone', 'along', 'already', 'also', 'alter', 'although', 'always', 'amazing', 'among', 'amount', 'analysis', 'analyst', 'analyze', 'ancient', 'and', 'anger', 'angle', 'angry', 'animal', 'announce', 'annual', 'another', 'answer', 'anxiety', 'any', 'anybody', 'anymore', 'anyone', 'anything', 'anyway', 'anywhere', 'apart', 'apparent', 'appeal', 'appear', 'apple', 'apply', 'appoint', 'approach', 'approval', 'approve', 'area', 'argue', 'argument', 'arise', 'arm', 'armed', 'army', 'around', 'arrange', 'arrest', 'arrival', 'arrive', 'art', 'article', 'artist', 'artistic', 'aside', 'ask', 'asleep', 'aspect', 'assault', 'assert', 'assess', 'asset', 'assign', 'assist', 'assume', 'assure', 'athlete', 'athletic', 'attach', 'attack', 'attempt', 'attend', 'attitude', 'attorney', 'attract', 'audience', 'author', 'auto', 'average', 'avoid', 'award', 'aware', 'away', 'awful', 'baby', 'back', 'bad', 'badly', 'bag', 'bake', 'balance', 'ball', 'ban', 'band', 'bank', 'bar', 'barely', 'barrel', 'barrier', 'base', 'baseball', 'basic', 'basis', 'basket', 'bathroom', 'battery', 'battle', 'beach', 'bean', 'bear', 'beat', 'beauty', 'because', 'become', 'bed', 'bedroom', 'beer', 'before', 'begin', 'behavior', 'behind', 'being', 'belief', 'believe', 'bell', 'belong', 'below', 'belt', 'bench', 'bend', 'beneath', 'benefit', 'beside', 'besides', 'best', 'bet', 'better', 'between', 'beyond', 'big', 'bike', 'bill', 'billion', 'bind', 'bird', 'birth', 'birthday', 'bit', 'bite', 'black', 'blade', 'blame', 'blanket', 'blind', 'block', 'blood', 'blow', 'blue', 'board', 'boat', 'body', 'bomb', 'bombing', 'bond', 'bone', 'book', 'boom', 'boot', 'border', 'born', 'borrow', 'boss', 'both', 'bother', 'bottle', 'bottom', 'boundary', 'bowl', 'box', 'boy', 'brain', 'branch', 'brand', 'bread', 'break', 'breast', 'breath', 'breathe', 'brick', 'bridge', 'brief', 'briefly', 'bright', 'bring', 'broad', 'broken', 'brother', 'brown', 'brush', 'buck', 'budget', 'build', 'building', 'bullet', 'bunch', 'burden', 'burn', 'bury', 'bus', 'business', 'busy', 'but', 'butter', 'button', 'buy', 'buyer', 'cabin', 'cabinet', 'cable', 'cake', 'call', 'camera', 'camp', 'campaign', 'campus', 'can', 'cancer', 'cap', 'capable', 'capacity', 'capital', 'captain', 'capture', 'car', 'carbon', 'card', 'care', 'career', 'careful', 'carrier', 'carry', 'case', 'cash', 'cast', 'cat', 'catch', 'category', 'cause', 'ceiling', 'cell', 'center', 'central', 'century', 'ceremony', 'certain', 'chain', 'chair', 'chairman', 'chamber', 'champion', 'chance', 'change', 'changing', 'channel', 'chapter', 'charge', 'charity', 'chart', 'chase', 'cheap', 'check', 'cheek', 'cheese', 'chef', 'chemical', 'chest', 'chicken', 'chief', 'child', 'chip', 'choice', 'choose', 'church', 'circle', 'cite', 'citizen', 'city', 'civil', 'civilian', 'claim', 'class', 'classic', 'clean', 'clear', 'clearly', 'client', 'climate', 'climb', 'clinic', 'clinical', 'clock', 'close', 'closely', 'closer', 'clothes', 'clothing', 'cloud', 'club', 'clue', 'cluster', 'coach', 'coal', 'coast', 'coat', 'code', 'coffee', 'cold', 'collapse', 'collect', 'college', 'colonial', 'color', 'column', 'combine', 'come', 'comedy', 'comfort', 'command', 'comment', 'commit', 'common', 'company', 'compare', 'compete', 'complain', 'complete', 'complex', 'compose', 'computer', 'concept', 'concern', 'concert', 'conclude', 'concrete', 'conduct', 'confirm', 'conflict', 'confront', 'connect', 'consider', 'consist', 'constant', 'consume', 'consumer', 'contact', 'contain', 'content', 'contest', 'context', 'continue', 'contract', 'contrast', 'control', 'convert', 'convince', 'cook', 'cookie', 'cooking', 'cool', 'cop', 'cope', 'copy', 'core', 'corn', 'corner', 'correct', 'cost', 'cotton', 'couch', 'could', 'council', 'count', 'counter', 'country', 'county', 'couple', 'courage', 'course', 'court', 'cousin', 'cover', 'coverage', 'cow', 'crack', 'craft', 'crash', 'crazy', 'cream', 'create', 'creation', 'creative', 'creature', 'credit', 'crew', 'crime', 'criminal', 'crisis', 'criteria', 'critic', 'critical', 'crop', 'cross', 'crowd', 'crucial', 'cry', 'cultural', 'culture', 'cup', 'curious', 'current', 'custom', 'customer', 'cut', 'cycle', 'dad', 'daily', 'damage', 'dance', 'danger', 'dare', 'dark', 'darkness', 'data', 'date', 'daughter', 'day', 'dead', 'deal', 'dealer', 'dear', 'death', 'debate', 'debt', 'decade', 'decide', 'decision', 'deck', 'declare', 'decline', 'decrease', 'deep', 'deeply', 'deer', 'defeat', 'defend', 'defense', 'deficit', 'define', 'degree', 'delay', 'deliver', 'delivery', 'demand', 'deny', 'depend', 'depict', 'depth', 'deputy', 'derive', 'describe', 'desert', 'deserve', 'design', 'designer', 'desire', 'desk', 'despite', 'destroy', 'detail', 'detailed', 'detect', 'develop', 'device', 'devote', 'dialogue', 'die', 'diet', 'differ', 'dig', 'digital', 'dining', 'dinner', 'direct', 'directly', 'director', 'dirt', 'dirty', 'disagree', 'disaster', 'discover', 'discuss', 'disease', 'dish', 'dismiss', 'disorder', 'display', 'dispute', 'distance', 'distant', 'distinct', 'district', 'diverse', 'divide', 'division', 'divorce', 'doctor', 'document', 'dog', 'domestic', 'dominant', 'dominate', 'door', 'double', 'doubt', 'down', 'downtown', 'dozen', 'draft', 'drag', 'drama', 'dramatic', 'draw', 'drawing', 'dream', 'dress', 'drink', 'drive', 'driver', 'drop', 'drug', 'dry', 'due', 'during', 'dust', 'duty', 'each', 'eager', 'ear', 'early', 'earn', 'earnings', 'earth', 'ease', 'easily', 'east', 'eastern', 'easy', 'eat', 'economic', 'economy', 'edge', 'edition', 'editor', 'educate', 'educator', 'effect', 'effort', 'egg', 'eight', 'either', 'elderly', 'elect', 'election', 'electric', 'element', 'elite', 'else', 'embrace', 'emerge', 'emission', 'emotion', 'emphasis', 'employ', 'employee', 'employer', 'empty', 'enable', 'end', 'enemy', 'energy', 'engage', 'engine', 'engineer', 'enhance', 'enjoy', 'enormous', 'enough', 'ensure', 'enter', 'entire', 'entirely', 'entrance', 'entry', 'episode', 'equal', 'equally', 'era', 'error', 'escape', 'essay', 'estate', 'estimate', 'etc', 'ethics', 'ethnic', 'evaluate', 'even', 'evening', 'event', 'ever', 'every', 'everyday', 'everyone', 'evidence', 'evolve', 'exact', 'exactly', 'examine', 'example', 'exceed', 'except', 'exchange', 'exciting', 'exercise', 'exhibit', 'exist', 'existing', 'expand', 'expect', 'expense', 'expert', 'explain', 'explode', 'explore', 'expose', 'exposure', 'express', 'extend', 'extent', 'external', 'extra', 'extreme', 'eye', 'fabric', 'face', 'facility', 'fact', 'factor', 'factory', 'faculty', 'fade', 'fail', 'failure', 'fair', 'fairly', 'faith', 'fall', 'false', 'familiar', 'family', 'famous', 'fan', 'fantasy', 'far', 'farm', 'farmer', 'fashion', 'fast', 'fat', 'fate', 'father', 'fault', 'favor', 'favorite', 'fear', 'feature', 'federal', 'fee', 'feed', 'feel', 'feeling', 'fellow', 'female', 'fence', 'few', 'fewer', 'fiber', 'fiction', 'field', 'fifteen', 'fifth', 'fifty', 'fight', 'fighter', 'fighting', 'figure', 'file', 'fill', 'film', 'final', 'finally', 'finance', 'find', 'finding', 'fine', 'finger', 'finish', 'fire', 'firm', 'first', 'fish', 'fishing', 'fit', 'fitness', 'five', 'fix', 'flag', 'flame', 'flat', 'flavor', 'flee', 'flesh', 'flight', 'float', 'floor', 'flow', 'flower', 'fly', 'focus', 'folk', 'follow', 'food', 'foot', 'football', 'for', 'force', 'foreign', 'forest', 'forever', 'forget', 'form', 'formal', 'former', 'formula', 'forth', 'fortune', 'forward', 'found', 'founder', 'four', 'fourth', 'frame', 'free', 'freedom', 'freeze', 'frequent', 'fresh', 'friend', 'friendly', 'from', 'front', 'fruit', 'fuel', 'full', 'fully', 'fun', 'function', 'fund', 'funding', 'funeral', 'funny', 'future', 'gain', 'galaxy', 'gallery', 'game', 'gang', 'gap', 'garage', 'garden', 'garlic', 'gas', 'gate', 'gather', 'gay', 'gaze', 'gear', 'gender', 'gene', 'general', 'generate', 'genetic', 'gently', 'gesture', 'get', 'ghost', 'giant', 'gift', 'gifted', 'girl', 'give', 'given', 'glad', 'glance', 'glass', 'global', 'glove', 'goal', 'gold', 'golden', 'golf', 'good', 'governor', 'grab', 'grade', 'graduate', 'grain', 'grand', 'grant', 'grass', 'grave', 'gray', 'great', 'greatest', 'green', 'grocery', 'ground', 'group', 'grow', 'growing', 'growth', 'guard', 'guess', 'guest', 'guide', 'guilty', 'gun', 'guy', 'habit', 'habitat', 'hair', 'half', 'hall', 'hand', 'handful', 'handle', 'hang', 'happen', 'happy', 'hard', 'hardly', 'hat', 'hate', 'have', 'head', 'headline', 'health', 'healthy', 'hear', 'hearing', 'heart', 'heat', 'heaven', 'heavily', 'heavy', 'heel', 'height', 'hell', 'hello', 'help', 'helpful', 'her', 'here', 'heritage', 'hero', 'herself', 'hey', 'hide', 'high', 'highly', 'highway', 'hill', 'him', 'himself', 'hip', 'hire', 'his', 'historic', 'history', 'hit', 'hold', 'hole', 'holiday', 'holy', 'home', 'homeless', 'honest', 'honey', 'honor', 'hope', 'horizon', 'horror', 'horse', 'hospital', 'host', 'hot', 'hotel', 'hour', 'house', 'housing', 'how', 'however', 'huge', 'human', 'humor', 'hundred', 'hungry', 'hunter', 'hunting', 'hurt', 'husband', 'ice', 'idea', 'ideal', 'identify', 'identity', 'ignore', 'ill', 'illegal', 'illness', 'image', 'imagine', 'impact', 'imply', 'impose', 'impress', 'improve', 'incident', 'include', 'income', 'increase', 'indeed', 'index', 'indicate', 'industry', 'infant', 'inform', 'initial', 'injury', 'inner', 'innocent', 'inquiry', 'inside', 'insight', 'insist', 'inspire', 'install', 'instance', 'instead', 'intend', 'intense', 'interest', 'internal', 'into', 'invasion', 'invest', 'investor', 'invite', 'involve', 'involved', 'iron', 'island', 'issue', 'item', 'its', 'itself', 'jacket', 'jail', 'jet', 'job', 'join', 'joint', 'joke', 'journal', 'journey', 'joy', 'judge', 'judgment', 'juice', 'jump', 'junior', 'jury', 'just', 'justice', 'justify', 'keep', 'key', 'kick', 'kid', 'kill', 'killer', 'killing', 'kind', 'king', 'kiss', 'kitchen', 'knee', 'knife', 'knock', 'know', 'lab', 'label', 'labor', 'lack', 'lady', 'lake', 'land', 'language', 'lap', 'large', 'largely', 'last', 'late', 'later', 'latter', 'laugh', 'launch', 'law', 'lawn', 'lawsuit', 'lawyer', 'lay', 'layer', 'lead', 'leader', 'leading', 'leaf', 'league', 'lean', 'learn', 'learning', 'least', 'leather', 'leave', 'left', 'leg', 'legacy', 'legal', 'legend', 'lemon', 'length', 'less', 'lesson', 'let', 'letter', 'level', 'liberal', 'library', 'license', 'lie', 'life', 'lifetime', 'lift', 'light', 'like', 'likely', 'limit', 'limited', 'line', 'link', 'lip', 'list', 'listen', 'literary', 'little', 'live', 'living', 'load', 'loan', 'local', 'locate', 'location', 'lock', 'long', 'look', 'loose', 'lose', 'loss', 'lost', 'lot', 'lots', 'loud', 'love', 'lovely', 'lover', 'low', 'lower', 'luck', 'lucky', 'lunch', 'lung', 'machine', 'mad', 'magazine', 'mail', 'main', 'mainly', 'maintain', 'major', 'majority', 'make', 'maker', 'makeup', 'male', 'mall', 'man', 'manage', 'manager', 'manner', 'many', 'map', 'margin', 'mark', 'market', 'marriage', 'married', 'marry', 'mask', 'mass', 'massive', 'master', 'match', 'material', 'math', 'matter', 'may', 'maybe', 'mayor', 'meal', 'mean', 'meaning', 'measure', 'meat', 'media', 'medical', 'medicine', 'medium', 'meet', 'meeting', 'member', 'memory', 'mental', 'mention', 'menu', 'mere', 'merely', 'mess', 'message', 'metal', 'meter', 'method', 'middle', 'might', 'military', 'milk', 'million', 'mind', 'mine', 'minister', 'minor', 'minority', 'minute', 'miracle', 'mirror', 'miss', 'missile', 'mission', 'mistake', 'mix', 'mixture', 'mode', 'model', 'moderate', 'modern', 'modest', 'mom', 'moment', 'money', 'monitor', 'month', 'mood', 'moon', 'moral', 'more', 'moreover', 'morning', 'mortgage', 'most', 'mostly', 'mother', 'motion', 'motor', 'mount', 'mountain', 'mouse', 'mouth', 'move', 'movement', 'movie', 'much', 'multiple', 'murder', 'muscle', 'museum', 'music', 'musical', 'musician', 'must', 'mutual', 'myself', 'mystery', 'myth', 'naked', 'name', 'narrow', 'nation', 'national', 'native', 'natural', 'nature', 'near', 'nearby', 'nearly', 'neck', 'need', 'negative', 'neighbor', 'neither', 'nerve', 'nervous', 'net', 'network', 'never', 'new', 'newly', 'news', 'next', 'nice', 'night', 'nine', 'nobody', 'nod', 'noise', 'none', 'nor', 'normal', 'normally', 'north', 'northern', 'nose', 'not', 'note', 'nothing', 'notice', 'notion', 'novel', 'now', 'nowhere', 'n\'t', 'nuclear', 'number', 'numerous', 'nurse', 'nut', 'object', 'observe', 'observer', 'obtain', 'obvious', 'occasion', 'occupy', 'occur', 'ocean', 'odd', 'odds', 'off', 'offense', 'offer', 'office', 'officer', 'official', 'often', 'oil', 'okay', 'old', 'once', 'one', 'ongoing', 'onion', 'online', 'only', 'onto', 'open', 'opening', 'operate', 'operator', 'opinion', 'opponent', 'oppose', 'opposite', 'option', 'orange', 'order', 'ordinary', 'organic', 'organize', 'origin', 'original', 'other', 'others', 'ought', 'our', 'out', 'outcome', 'outside', 'oven', 'over', 'overall', 'overcome', 'overlook', 'owe', 'own', 'owner', 'pace', 'pack', 'package', 'page', 'pain', 'painful', 'paint', 'painter', 'painting', 'pair', 'pale', 'palm', 'pan', 'panel', 'pant', 'paper', 'parent', 'park', 'parking', 'part', 'partly', 'partner', 'party', 'pass', 'passage', 'passion', 'past', 'patch', 'path', 'patient', 'pattern', 'pause', 'pay', 'payment', 'peace', 'peak', 'peer', 'penalty', 'people', 'pepper', 'per', 'perceive', 'perfect', 'perform', 'perhaps', 'period', 'permit', 'person', 'personal', 'persuade', 'pet', 'phase', 'phone', 'photo', 'phrase', 'physical', 'piano', 'pick', 'picture', 'pie', 'piece', 'pile', 'pilot', 'pine', 'pink', 'pipe', 'pitch', 'place', 'plan', 'plane', 'planet', 'planning', 'plant', 'plastic', 'plate', 'platform', 'play', 'player', 'please', 'pleasure', 'plenty', 'plot', 'plus', 'pocket', 'poem', 'poet', 'poetry', 'point', 'pole', 'police', 'policy', 'politics', 'poll', 'pool', 'poor', 'pop', 'popular', 'porch', 'port', 'portion', 'portrait', 'portray', 'pose', 'position', 'positive', 'possess', 'possible', 'possibly', 'post', 'pot', 'potato', 'pound', 'pour', 'poverty', 'powder', 'power', 'powerful', 'practice', 'pray', 'prayer', 'predict', 'prefer', 'pregnant', 'prepare', 'presence', 'present', 'preserve', 'press', 'pressure', 'pretend', 'pretty', 'prevent', 'previous', 'price', 'pride', 'priest', 'primary', 'prime', 'print', 'prior', 'priority', 'prison', 'prisoner', 'privacy', 'private', 'probably', 'problem', 'proceed', 'process', 'produce', 'producer', 'product', 'profile', 'profit', 'program', 'progress', 'project', 'promise', 'promote', 'prompt', 'proof', 'proper', 'properly', 'property', 'proposal', 'propose', 'proposed', 'prospect', 'protect', 'protein', 'protest', 'proud', 'prove', 'provide', 'provider', 'province', 'public', 'publicly', 'publish', 'pull', 'purchase', 'pure', 'purpose', 'pursue', 'push', 'put', 'qualify', 'quality', 'quarter', 'question', 'quick', 'quickly', 'quiet', 'quietly', 'quit', 'quite', 'quote', 'race', 'racial', 'radical', 'radio', 'rail', 'rain', 'raise', 'range', 'rank', 'rapid', 'rapidly', 'rare', 'rarely', 'rate', 'rather', 'rating', 'ratio', 'raw', 'reach', 'react', 'reaction', 'read', 'reader', 'reading', 'ready', 'real', 'reality', 'realize', 'really', 'reason', 'recall', 'receive', 'recent', 'recently', 'recipe', 'record', 'recover', 'recovery', 'recruit', 'red', 'reduce', 'refer', 'reflect', 'reform', 'refugee', 'refuse', 'regard', 'regime', 'region', 'regional', 'register', 'regular', 'regulate', 'reject', 'relate', 'relation', 'relative', 'relax', 'release', 'relevant', 'relief', 'religion', 'rely', 'remain', 'remember', 'remind', 'remote', 'remove', 'repeat', 'replace', 'reply', 'report', 'reporter', 'request', 'require', 'research', 'resemble', 'resident', 'resist', 'resolve', 'resort', 'resource', 'respect', 'respond', 'response', 'rest', 'restore', 'result', 'retain', 'retire', 'return', 'reveal', 'revenue', 'review', 'rhythm', 'rice', 'rich', 'rid', 'ride', 'rifle', 'right', 'ring', 'rise', 'risk', 'river', 'road', 'rock', 'role', 'roll', 'romantic', 'roof', 'room', 'root', 'rope', 'rose', 'rough', 'roughly', 'round', 'route', 'routine', 'row', 'rub', 'rule', 'run', 'running', 'rural', 'rush', 'sacred', 'sad', 'safe', 'safety', 'sake', 'salad', 'salary', 'sale', 'sales', 'salt', 'same', 'sample', 'sanction', 'sand', 'satisfy', 'sauce', 'save', 'saving', 'say', 'scale', 'scandal', 'scared', 'scenario', 'scene', 'schedule', 'scheme', 'scholar', 'school', 'science', 'scope', 'score', 'scream', 'screen', 'script', 'sea', 'search', 'season', 'seat', 'second', 'secret', 'section', 'sector', 'secure', 'security', 'see', 'seed', 'seek', 'seem', 'segment', 'seize', 'select', 'self', 'sell', 'senator', 'send', 'senior', 'sense', 'sentence', 'separate', 'sequence', 'series', 'serious', 'serve', 'service', 'session', 'set', 'setting', 'settle', 'seven', 'several', 'severe', 'sex', 'sexual', 'shade', 'shadow', 'shake', 'shall', 'shape', 'share', 'sharp', 'she', 'sheet', 'shelf', 'shell', 'shelter', 'shift', 'shine', 'ship', 'shirt', 'shit', 'shock', 'shoe', 'shoot', 'shooting', 'shop', 'shopping', 'shore', 'short', 'shortly', 'shot', 'should', 'shoulder', 'shout', 'show', 'shower', 'shrug', 'shut', 'sick', 'side', 'sigh', 'sight', 'sign', 'signal', 'silence', 'silent', 'silver', 'similar', 'simple', 'simply', 'sin', 'since', 'sing', 'singer', 'single', 'sink', 'sir', 'sister', 'sit', 'site', 'six', 'size', 'ski', 'skill', 'skin', 'sky', 'slave', 'sleep', 'slice', 'slide', 'slight', 'slightly', 'slip', 'slow', 'slowly', 'small', 'smart', 'smell', 'smile', 'smoke', 'smooth', 'snap', 'snow', 'soccer', 'social', 'society', 'soft', 'software', 'soil', 'solar', 'soldier', 'solid', 'solution', 'solve', 'some', 'somebody', 'somehow', 'someone', 'somewhat', 'son', 'song', 'soon', 'sorry', 'sort', 'soul', 'sound', 'soup', 'source', 'south', 'southern', 'space', 'speak', 'speaker', 'special', 'species', 'specific', 'speech', 'speed', 'spend', 'spending', 'spin', 'spirit', 'split', 'sport', 'spot', 'spread', 'spring', 'square', 'squeeze', 'stable', 'staff', 'stage', 'stair', 'stake', 'stand', 'standard', 'standing', 'star', 'stare', 'start', 'state', 'station', 'status', 'stay', 'steady', 'steal', 'steel', 'step', 'stick', 'still', 'stir', 'stock', 'stomach', 'stone', 'stop', 'storage', 'store', 'storm', 'story', 'straight', 'strange', 'stranger', 'strategy', 'stream', 'street', 'strength', 'stress', 'stretch', 'strike', 'string', 'strip', 'stroke', 'strong', 'strongly', 'struggle', 'student', 'studio', 'study', 'stuff', 'stupid', 'style', 'subject', 'submit', 'succeed', 'success', 'such', 'sudden', 'suddenly', 'sue', 'suffer', 'sugar', 'suggest', 'suicide', 'suit', 'summer', 'summit', 'sun', 'super', 'supply', 'support', 'suppose', 'supposed', 'sure', 'surely', 'surface', 'surgery', 'surprise', 'surround', 'survey', 'survival', 'survive', 'survivor', 'suspect', 'sustain', 'swear', 'sweep', 'sweet', 'swim', 'swing', 'switch', 'symbol', 'symptom', 'system', 'table', 'tactic', 'tail', 'take', 'tale', 'talent', 'talk', 'tall', 'tank', 'tap', 'tape', 'target', 'task', 'taste', 'tax', 'taxpayer', 'tea', 'teach', 'teacher', 'teaching', 'team', 'tear', 'teaspoon', 'teen', 'teenager', 'tell', 'ten', 'tend', 'tendency', 'tennis', 'tension', 'tent', 'term', 'terms', 'terrible', 'terror', 'test', 'testify', 'testing', 'text', 'than', 'thank', 'thanks', 'that', 'the', 'theater', 'their', 'them', 'theme', 'then', 'theory', 'therapy', 'there', 'these', 'they', 'thick', 'thin', 'thing', 'think', 'thinking', 'third', 'thirty', 'this', 'those', 'though', 'thought', 'thousand', 'threat', 'threaten', 'three', 'throat', 'through', 'throw', 'thus', 'ticket', 'tie', 'tight', 'time', 'tiny', 'tip', 'tire', 'tired', 'tissue', 'title', 'tobacco', 'today', 'toe', 'together', 'tomato', 'tomorrow', 'tone', 'tongue', 'tonight', 'too', 'tool', 'tooth', 'top', 'topic', 'toss', 'total', 'totally', 'touch', 'tough', 'tour', 'tourist', 'toward', 'towards', 'tower', 'town', 'toy', 'trace', 'track', 'trade', 'traffic', 'tragedy', 'trail', 'train', 'training', 'transfer', 'travel', 'treat', 'treaty', 'tree', 'trend', 'trial', 'tribe', 'trick', 'trip', 'troop', 'trouble', 'truck', 'true', 'truly', 'trust', 'truth', 'try', 'tube', 'tunnel', 'turn', 'twelve', 'twenty', 'twice', 'twin', 'two', 'type', 'typical', 'ugly', 'ultimate', 'unable', 'uncle', 'under', 'undergo', 'uniform', 'union', 'unique', 'unit', 'universe', 'unknown', 'unless', 'unlike', 'unlikely', 'until', 'unusual', 'upon', 'upper', 'urban', 'urge', 'use', 'used', 'useful', 'user', 'usual', 'usually', 'utility', 'vacation', 'valley', 'valuable', 'value', 'variable', 'variety', 'various', 'vary', 'vast', 'vehicle', 'venture', 'version', 'versus', 'very', 'vessel', 'veteran', 'via', 'victim', 'victory', 'video', 'view', 'viewer', 'village', 'violate', 'violence', 'violent', 'virtue', 'virus', 'visible', 'vision', 'visit', 'visitor', 'visual', 'vital', 'voice', 'volume', 'vote', 'voter', 'wage', 'wait', 'wake', 'walk', 'wall', 'wander', 'want', 'war', 'warm', 'warn', 'warning', 'wash', 'waste', 'watch', 'water', 'wave', 'way', 'weak', 'wealth', 'wealthy', 'weapon', 'wear', 'weather', 'wedding', 'week', 'weekend', 'weekly', 'weigh', 'weight', 'welcome', 'welfare', 'well', 'west', 'western', 'wet', 'what', 'whatever', 'wheel', 'when', 'whenever', 'where', 'whereas', 'whether', 'which', 'while', 'whisper', 'white', 'who', 'whole', 'whom', 'whose', 'why', 'wide', 'widely', 'wife', 'wild', 'will', 'willing', 'win', 'wind', 'window', 'wine', 'wing', 'winner', 'winter', 'wipe', 'wire', 'wisdom', 'wise', 'wish', 'with', 'withdraw', 'within', 'without', 'witness', 'woman', 'wonder', 'wood', 'wooden', 'word', 'work', 'worker', 'working', 'works', 'workshop', 'world', 'worried', 'worry', 'worth', 'would', 'wound', 'wrap', 'write', 'writer', 'writing', 'wrong', 'yard', 'yeah', 'year', 'yell', 'yellow', 'yes', 'yet', 'yield', 'you', 'young', 'your', 'yours', 'yourself', 'youth', 'zone']);
+	['abandon', 'ability', 'able', 'abortion', 'about', 'above', 'abroad', 'absence', 'absolute', 'absorb', 'abuse', 'academic', 'accept', 'access', 'accident', 'account', 'accurate', 'accuse', 'achieve', 'acid', 'acquire', 'across', 'act', 'action', 'active', 'activist', 'activity', 'actor', 'actress', 'actual', 'actually', 'adapt', 'add', 'addition', 'address', 'adequate', 'adjust', 'admire', 'admit', 'adopt', 'adult', 'advance', 'advanced', 'advice', 'advise', 'adviser', 'advocate', 'affair', 'affect', 'afford', 'afraid', 'after', 'again', 'against', 'age', 'agency', 'agenda', 'agent', 'ago', 'agree', 'ahead', 'aid', 'aide', 'aim', 'air', 'aircraft', 'airline', 'airport', 'album', 'alcohol', 'alive', 'all', 'alliance', 'allow', 'ally', 'almost', 'alone', 'along', 'already', 'also', 'alter', 'although', 'always', 'amazing', 'among', 'amount', 'analysis', 'analyst', 'analyze', 'ancient', 'and', 'anger', 'angle', 'angry', 'animal', 'announce', 'annual', 'another', 'answer', 'anxiety', 'any', 'anybody', 'anymore', 'anyone', 'anything', 'anyway', 'anywhere', 'apart', 'apparent', 'appeal', 'appear', 'apple', 'apply', 'appoint', 'approach', 'approval', 'approve', 'area', 'argue', 'argument', 'arise', 'arm', 'armed', 'army', 'around', 'arrange', 'arrest', 'arrival', 'arrive', 'art', 'article', 'artist', 'artistic', 'aside', 'ask', 'asleep', 'aspect', 'assault', 'assert', 'assess', 'asset', 'assign', 'assist', 'assume', 'assure', 'athlete', 'athletic', 'attach', 'attack', 'attempt', 'attend', 'attitude', 'attorney', 'attract', 'audience', 'author', 'auto', 'average', 'avoid', 'award', 'aware', 'away', 'awful', 'baby', 'back', 'bad', 'badly', 'bag', 'bake', 'balance', 'ball', 'ban', 'band', 'bank', 'bar', 'barely', 'barrel', 'barrier', 'base', 'baseball', 'basic', 'basis', 'basket', 'bathroom', 'battery', 'battle', 'beach', 'bean', 'bear', 'beat', 'beauty', 'because', 'become', 'bed', 'bedroom', 'beer', 'before', 'begin', 'behavior', 'behind', 'being', 'belief', 'believe', 'bell', 'belong', 'below', 'belt', 'bench', 'bend', 'beneath', 'benefit', 'beside', 'besides', 'best', 'bet', 'better', 'between', 'beyond', 'big', 'bike', 'bill', 'billion', 'bind', 'bird', 'birth', 'birthday', 'bit', 'bite', 'black', 'blade', 'blame', 'blanket', 'blind', 'block', 'blood', 'blow', 'blue', 'board', 'boat', 'body', 'bomb', 'bombing', 'bond', 'bone', 'book', 'boom', 'boot', 'border', 'born', 'borrow', 'boss', 'both', 'bother', 'bottle', 'bottom', 'boundary', 'bowl', 'box', 'boy', 'brain', 'branch', 'brand', 'bread', 'break', 'breast', 'breath', 'breathe', 'brick', 'bridge', 'brief', 'briefly', 'bright', 'bring', 'broad', 'broken', 'brother', 'brown', 'brush', 'buck', 'budget', 'build', 'building', 'bullet', 'bunch', 'burden', 'burn', 'bury', 'bus', 'business', 'busy', 'but', 'butter', 'button', 'buy', 'buyer', 'cabin', 'cabinet', 'cable', 'cake', 'call', 'camera', 'camp', 'campaign', 'campus', 'can', 'cancer', 'cap', 'capable', 'capacity', 'capital', 'captain', 'capture', 'car', 'carbon', 'card', 'care', 'career', 'careful', 'carrier', 'carry', 'case', 'cash', 'cast', 'cat', 'catch', 'category', 'cause', 'ceiling', 'cell', 'center', 'central', 'century', 'ceremony', 'certain', 'chain', 'chair', 'chairman', 'chamber', 'champion', 'chance', 'change', 'changing', 'channel', 'chapter', 'charge', 'charity', 'chart', 'chase', 'cheap', 'check', 'cheek', 'cheese', 'chef', 'chemical', 'chest', 'chicken', 'chief', 'child', 'chip', 'choice', 'choose', 'church', 'circle', 'cite', 'citizen', 'city', 'civil', 'civilian', 'claim', 'class', 'classic', 'clean', 'clear', 'clearly', 'client', 'climate', 'climb', 'clinic', 'clinical', 'clock', 'close', 'closely', 'closer', 'clothes', 'clothing', 'cloud', 'club', 'clue', 'cluster', 'coach', 'coal', 'coast', 'coat', 'code', 'coffee', 'cold', 'collapse', 'collect', 'college', 'colonial', 'color', 'column', 'combine', 'come', 'comedy', 'comfort', 'command', 'comment', 'commit', 'common', 'company', 'compare', 'compete', 'complain', 'complete', 'complex', 'compose', 'computer', 'concept', 'concern', 'concert', 'conclude', 'concrete', 'conduct', 'confirm', 'conflict', 'confront', 'connect', 'consider', 'consist', 'constant', 'consume', 'consumer', 'contact', 'contain', 'content', 'contest', 'context', 'continue', 'contract', 'contrast', 'control', 'convert', 'convince', 'cook', 'cookie', 'cooking', 'cool', 'cop', 'cope', 'copy', 'core', 'corn', 'corner', 'correct', 'cost', 'cotton', 'couch', 'could', 'council', 'count', 'counter', 'country', 'county', 'couple', 'courage', 'course', 'court', 'cousin', 'cover', 'coverage', 'cow', 'crack', 'craft', 'crash', 'crazy', 'cream', 'create', 'creation', 'creative', 'creature', 'credit', 'crew', 'crime', 'criminal', 'crisis', 'criteria', 'critic', 'critical', 'crop', 'cross', 'crowd', 'crucial', 'cry', 'cultural', 'culture', 'cup', 'curious', 'current', 'custom', 'customer', 'cut', 'cycle', 'dad', 'daily', 'damage', 'dance', 'danger', 'dare', 'dark', 'darkness', 'data', 'date', 'daughter', 'day', 'dead', 'deal', 'dealer', 'dear', 'death', 'debate', 'debt', 'decade', 'decide', 'decision', 'deck', 'declare', 'decline', 'decrease', 'deep', 'deeply', 'deer', 'defeat', 'defend', 'defense', 'deficit', 'define', 'degree', 'delay', 'deliver', 'delivery', 'demand', 'deny', 'depend', 'depict', 'depth', 'deputy', 'derive', 'describe', 'desert', 'deserve', 'design', 'designer', 'desire', 'desk', 'despite', 'destroy', 'detail', 'detailed', 'detect', 'develop', 'device', 'devote', 'dialogue', 'die', 'diet', 'differ', 'dig', 'digital', 'dining', 'dinner', 'direct', 'directly', 'director', 'dirt', 'dirty', 'disagree', 'disaster', 'discover', 'discuss', 'disease', 'dish', 'dismiss', 'disorder', 'display', 'dispute', 'distance', 'distant', 'distinct', 'district', 'diverse', 'divide', 'division', 'divorce', 'doctor', 'document', 'dog', 'domestic', 'dominant', 'dominate', 'door', 'double', 'doubt', 'down', 'downtown', 'dozen', 'draft', 'drag', 'drama', 'dramatic', 'draw', 'drawing', 'dream', 'dress', 'drink', 'drive', 'driver', 'drop', 'drug', 'dry', 'due', 'during', 'dust', 'duty', 'each', 'eager', 'ear', 'early', 'earn', 'earnings', 'earth', 'ease', 'easily', 'east', 'eastern', 'easy', 'eat', 'economic', 'economy', 'edge', 'edition', 'editor', 'educate', 'educator', 'effect', 'effort', 'egg', 'eight', 'either', 'elderly', 'elect', 'election', 'electric', 'element', 'elite', 'else', 'embrace', 'emerge', 'emission', 'emotion', 'emphasis', 'employ', 'employee', 'employer', 'empty', 'enable', 'end', 'enemy', 'energy', 'engage', 'engine', 'engineer', 'enhance', 'enjoy', 'enormous', 'enough', 'ensure', 'enter', 'entire', 'entirely', 'entrance', 'entry', 'episode', 'equal', 'equally', 'era', 'error', 'escape', 'essay', 'estate', 'estimate', 'etc', 'ethics', 'ethnic', 'evaluate', 'even', 'evening', 'event', 'ever', 'every', 'everyday', 'everyone', 'evidence', 'evolve', 'exact', 'exactly', 'examine', 'example', 'exceed', 'except', 'exchange', 'exciting', 'exercise', 'exhibit', 'exist', 'existing', 'expand', 'expect', 'expense', 'expert', 'explain', 'explode', 'explore', 'expose', 'exposure', 'express', 'extend', 'extent', 'external', 'extra', 'extreme', 'eye', 'fabric', 'face', 'facility', 'fact', 'factor', 'factory', 'faculty', 'fade', 'fail', 'failure', 'fair', 'fairly', 'faith', 'fall', 'false', 'familiar', 'family', 'famous', 'fan', 'fantasy', 'far', 'farm', 'farmer', 'fashion', 'fast', 'fat', 'fate', 'father', 'fault', 'favor', 'favorite', 'fear', 'feature', 'federal', 'fee', 'feed', 'feel', 'feeling', 'fellow', 'female', 'fence', 'few', 'fewer', 'fiber', 'fiction', 'field', 'fifteen', 'fifth', 'fifty', 'fight', 'fighter', 'fighting', 'figure', 'file', 'fill', 'film', 'final', 'finally', 'finance', 'find', 'finding', 'fine', 'finger', 'finish', 'fire', 'firm', 'first', 'fish', 'fishing', 'fit', 'fitness', 'five', 'fix', 'flag', 'flame', 'flat', 'flavor', 'flee', 'flesh', 'flight', 'float', 'floor', 'flow', 'flower', 'fly', 'focus', 'folk', 'follow', 'food', 'foot', 'football', 'for', 'force', 'foreign', 'forest', 'forever', 'forget', 'form', 'formal', 'former', 'formula', 'forth', 'fortune', 'forward', 'found', 'founder', 'four', 'fourth', 'frame', 'free', 'freedom', 'freeze', 'frequent', 'fresh', 'friend', 'friendly', 'from', 'front', 'fruit', 'fuel', 'full', 'fully', 'fun', 'function', 'fund', 'funding', 'funeral', 'funny', 'future', 'gain', 'galaxy', 'gallery', 'game', 'gang', 'gap', 'garage', 'garden', 'garlic', 'gas', 'gate', 'gather', 'gay', 'gaze', 'gear', 'gender', 'gene', 'general', 'generate', 'genetic', 'gently', 'gesture', 'get', 'ghost', 'giant', 'gift', 'gifted', 'girl', 'give', 'given', 'glad', 'glance', 'glass', 'global', 'glove', 'goal', 'gold', 'golden', 'golf', 'good', 'governor', 'grab', 'grade', 'graduate', 'grain', 'grand', 'grant', 'grass', 'grave', 'gray', 'great', 'greatest', 'green', 'grocery', 'ground', 'group', 'grow', 'growing', 'growth', 'guard', 'guess', 'guest', 'guide', 'guilty', 'gun', 'guy', 'habit', 'habitat', 'hair', 'half', 'hall', 'hand', 'handful', 'handle', 'hang', 'happen', 'happy', 'hard', 'hardly', 'hat', 'hate', 'have', 'head', 'headline', 'health', 'healthy', 'hear', 'hearing', 'heart', 'heat', 'heaven', 'heavily', 'heavy', 'heel', 'height', 'hell', 'hello', 'help', 'helpful', 'her', 'here', 'heritage', 'hero', 'herself', 'hey', 'hide', 'high', 'highly', 'highway', 'hill', 'him', 'himself', 'hip', 'hire', 'his', 'historic', 'history', 'hit', 'hold', 'hole', 'holiday', 'holy', 'home', 'homeless', 'honest', 'honey', 'honor', 'hope', 'horizon', 'horror', 'horse', 'hospital', 'host', 'hot', 'hotel', 'hour', 'house', 'housing', 'how', 'however', 'huge', 'human', 'humor', 'hundred', 'hungry', 'hunter', 'hunting', 'hurt', 'husband', 'ice', 'idea', 'ideal', 'identify', 'identity', 'ignore', 'ill', 'illegal', 'illness', 'image', 'imagine', 'impact', 'imply', 'impose', 'impress', 'improve', 'incident', 'include', 'income', 'increase', 'indeed', 'index', 'indicate', 'industry', 'infant', 'inform', 'initial', 'injury', 'inner', 'innocent', 'inquiry', 'inside', 'insight', 'insist', 'inspire', 'install', 'instance', 'instead', 'intend', 'intense', 'interest', 'internal', 'into', 'invasion', 'invest', 'investor', 'invite', 'involve', 'involved', 'iron', 'island', 'issue', 'item', 'its', 'itself', 'jacket', 'jail', 'jet', 'job', 'join', 'joint', 'joke', 'journal', 'journey', 'joy', 'judge', 'judgment', 'juice', 'jump', 'junior', 'jury', 'just', 'justice', 'justify', 'keep', 'key', 'kick', 'kid', 'kill', 'killer', 'killing', 'kind', 'king', 'kiss', 'kitchen', 'knee', 'knife', 'knock', 'know', 'lab', 'label', 'labor', 'lack', 'lady', 'lake', 'land', 'language', 'lap', 'large', 'largely', 'last', 'late', 'later', 'latter', 'laugh', 'launch', 'law', 'lawn', 'lawsuit', 'lawyer', 'lay', 'layer', 'lead', 'leader', 'leading', 'leaf', 'league', 'lean', 'learn', 'learning', 'least', 'leather', 'leave', 'left', 'leg', 'legacy', 'legal', 'legend', 'lemon', 'length', 'less', 'lesson', 'let', 'letter', 'level', 'liberal', 'library', 'license', 'lie', 'life', 'lifetime', 'lift', 'light', 'like', 'likely', 'limit', 'limited', 'line', 'link', 'lip', 'list', 'listen', 'literary', 'little', 'live', 'living', 'load', 'loan', 'local', 'locate', 'location', 'lock', 'long', 'look', 'loose', 'lose', 'loss', 'lost', 'lot', 'lots', 'loud', 'love', 'lovely', 'lover', 'low', 'lower', 'luck', 'lucky', 'lunch', 'lung', 'machine', 'mad', 'magazine', 'mail', 'main', 'mainly', 'maintain', 'major', 'majority', 'make', 'maker', 'makeup', 'male', 'mall', 'man', 'manage', 'manager', 'manner', 'many', 'map', 'margin', 'mark', 'market', 'marriage', 'married', 'marry', 'mask', 'mass', 'massive', 'master', 'match', 'material', 'math', 'matter', 'may', 'maybe', 'mayor', 'meal', 'mean', 'meaning', 'measure', 'meat', 'media', 'medical', 'medicine', 'medium', 'meet', 'meeting', 'member', 'memory', 'mental', 'mention', 'menu', 'mere', 'merely', 'mess', 'message', 'metal', 'meter', 'method', 'middle', 'might', 'military', 'milk', 'million', 'mind', 'mine', 'minister', 'minor', 'minority', 'minute', 'miracle', 'mirror', 'miss', 'missile', 'mission', 'mistake', 'mix', 'mixture', 'mode', 'model', 'moderate', 'modern', 'modest', 'mom', 'moment', 'money', 'monitor', 'month', 'mood', 'moon', 'moral', 'more', 'moreover', 'morning', 'mortgage', 'most', 'mostly', 'mother', 'motion', 'motor', 'mount', 'mountain', 'mouse', 'mouth', 'move', 'movement', 'movie', 'much', 'multiple', 'murder', 'muscle', 'museum', 'music', 'musical', 'musician', 'must', 'mutual', 'myself', 'mystery', 'myth', 'naked', 'name', 'narrow', 'nation', 'national', 'native', 'natural', 'nature', 'near', 'nearby', 'nearly', 'neck', 'need', 'negative', 'neighbor', 'neither', 'nerve', 'nervous', 'net', 'network', 'never', 'new', 'newly', 'news', 'next', 'nice', 'night', 'nine', 'nobody', 'nod', 'noise', 'none', 'nor', 'normal', 'normally', 'north', 'northern', 'nose', 'not', 'note', 'nothing', 'notice', 'notion', 'novel', 'now', 'nowhere', 'n\'t', 'nuclear', 'number', 'numerous', 'nurse', 'nut', 'object', 'observe', 'observer', 'obtain', 'obvious', 'occasion', 'occupy', 'occur', 'ocean', 'odd', 'odds', 'off', 'offense', 'offer', 'office', 'officer', 'official', 'often', 'oil', 'okay', 'old', 'once', 'one', 'ongoing', 'onion', 'online', 'only', 'onto', 'open', 'opening', 'operate', 'operator', 'opinion', 'opponent', 'oppose', 'opposite', 'option', 'orange', 'order', 'ordinary', 'organic', 'organize', 'origin', 'original', 'other', 'others', 'ought', 'our', 'out', 'outcome', 'outside', 'oven', 'over', 'overall', 'overcome', 'overlook', 'owe', 'own', 'owner', 'pace', 'pack', 'package', 'page', 'pain', 'painful', 'paint', 'painter', 'painting', 'pair', 'pale', 'palm', 'pan', 'panel', 'pant', 'paper', 'parent', 'park', 'parking', 'part', 'partly', 'partner', 'party', 'pass', 'passage', 'passion', 'past', 'patch', 'path', 'patient', 'pattern', 'pause', 'pay', 'payment', 'peace', 'peak', 'peer', 'penalty', 'people', 'pepper', 'per', 'perceive', 'perfect', 'perform', 'perhaps', 'period', 'permit', 'person', 'personal', 'persuade', 'pet', 'phase', 'phone', 'photo', 'phrase', 'physical', 'piano', 'pick', 'picture', 'pie', 'piece', 'pile', 'pilot', 'pine', 'pink', 'pipe', 'pitch', 'place', 'plan', 'plane', 'planet', 'planning', 'plant', 'plastic', 'plate', 'platform', 'play', 'player', 'please', 'pleasure', 'plenty', 'plot', 'plus', 'pocket', 'poem', 'poet', 'poetry', 'point', 'pole', 'police', 'policy', 'politics', 'poll', 'pool', 'poor', 'pop', 'popular', 'porch', 'port', 'portion', 'portrait', 'portray', 'pose', 'position', 'positive', 'possess', 'possible', 'possibly', 'post', 'pot', 'potato', 'pound', 'pour', 'poverty', 'powder', 'power', 'powerful', 'practice', 'pray', 'prayer', 'predict', 'prefer', 'pregnant', 'prepare', 'presence', 'present', 'preserve', 'press', 'pressure', 'pretend', 'pretty', 'prevent', 'previous', 'price', 'pride', 'priest', 'primary', 'prime', 'print', 'prior', 'priority', 'prison', 'prisoner', 'privacy', 'private', 'probably', 'problem', 'proceed', 'process', 'produce', 'producer', 'product', 'profile', 'profit', 'program', 'progress', 'project', 'promise', 'promote', 'prompt', 'proof', 'proper', 'properly', 'property', 'proposal', 'propose', 'proposed', 'prospect', 'protect', 'protein', 'protest', 'proud', 'prove', 'provide', 'provider', 'province', 'public', 'publicly', 'publish', 'pull', 'purchase', 'pure', 'purpose', 'pursue', 'push', 'put', 'qualify', 'quality', 'quarter', 'question', 'quick', 'quickly', 'quiet', 'quietly', 'quit', 'quite', 'quote', 'race', 'racial', 'radical', 'radio', 'rail', 'rain', 'raise', 'range', 'rank', 'rapid', 'rapidly', 'rare', 'rarely', 'rate', 'rather', 'rating', 'ratio', 'raw', 'reach', 'react', 'reaction', 'read', 'reader', 'reading', 'ready', 'real', 'reality', 'realize', 'really', 'reason', 'recall', 'receive', 'recent', 'recently', 'recipe', 'record', 'recover', 'recovery', 'recruit', 'red', 'reduce', 'refer', 'reflect', 'reform', 'refugee', 'refuse', 'regard', 'regime', 'region', 'regional', 'register', 'regular', 'regulate', 'reject', 'relate', 'relation', 'relative', 'relax', 'release', 'relevant', 'relief', 'religion', 'rely', 'remain', 'remember', 'remind', 'remote', 'remove', 'repeat', 'replace', 'reply', 'report', 'reporter', 'request', 'require', 'research', 'resemble', 'resident', 'resist', 'resolve', 'resort', 'resource', 'respect', 'respond', 'response', 'rest', 'restore', 'result', 'retain', 'retire', 'return', 'reveal', 'revenue', 'review', 'rhythm', 'rice', 'rich', 'rid', 'ride', 'rifle', 'right', 'ring', 'rise', 'risk', 'river', 'road', 'rock', 'role', 'roll', 'romantic', 'roof', 'room', 'root', 'rope', 'rose', 'rough', 'roughly', 'round', 'route', 'routine', 'row', 'rub', 'rule', 'run', 'running', 'rural', 'rush', 'sacred', 'sad', 'safe', 'safety', 'sake', 'salad', 'salary', 'sale', 'sales', 'salt', 'same', 'sample', 'sanction', 'sand', 'satisfy', 'sauce', 'save', 'saving', 'say', 'scale', 'scandal', 'scared', 'scenario', 'scene', 'schedule', 'scheme', 'scholar', 'school', 'science', 'scope', 'score', 'scream', 'screen', 'script', 'sea', 'search', 'season', 'seat', 'second', 'secret', 'section', 'sector', 'secure', 'security', 'see', 'seed', 'seek', 'seem', 'segment', 'seize', 'select', 'self', 'sell', 'senator', 'send', 'senior', 'sense', 'sentence', 'separate', 'sequence', 'series', 'serious', 'serve', 'service', 'session', 'set', 'setting', 'settle', 'seven', 'several', 'severe', 'sexual', 'shade', 'shadow', 'shake', 'shall', 'shape', 'share', 'sharp', 'she', 'sheet', 'shelf', 'shell', 'shelter', 'shift', 'shine', 'ship', 'shirt', 'shock', 'shoe', 'shoot', 'shooting', 'shop', 'shopping', 'shore', 'short', 'shortly', 'shot', 'should', 'shoulder', 'shout', 'show', 'shower', 'shrug', 'shut', 'sick', 'side', 'sigh', 'sight', 'sign', 'signal', 'silence', 'silent', 'silver', 'similar', 'simple', 'simply', 'sin', 'since', 'sing', 'singer', 'single', 'sink', 'sir', 'sister', 'sit', 'site', 'six', 'size', 'ski', 'skill', 'skin', 'sky', 'slave', 'sleep', 'slice', 'slide', 'slight', 'slightly', 'slip', 'slow', 'slowly', 'small', 'smart', 'smell', 'smile', 'smoke', 'smooth', 'snap', 'snow', 'soccer', 'social', 'society', 'soft', 'software', 'soil', 'solar', 'soldier', 'solid', 'solution', 'solve', 'some', 'somebody', 'somehow', 'someone', 'somewhat', 'son', 'song', 'soon', 'sorry', 'sort', 'soul', 'sound', 'soup', 'source', 'south', 'southern', 'space', 'speak', 'speaker', 'special', 'species', 'specific', 'speech', 'speed', 'spend', 'spending', 'spin', 'spirit', 'split', 'sport', 'spot', 'spread', 'spring', 'square', 'squeeze', 'stable', 'staff', 'stage', 'stair', 'stake', 'stand', 'standard', 'standing', 'star', 'stare', 'start', 'state', 'station', 'status', 'stay', 'steady', 'steal', 'steel', 'step', 'stick', 'still', 'stir', 'stock', 'stomach', 'stone', 'stop', 'storage', 'store', 'storm', 'story', 'straight', 'strange', 'stranger', 'strategy', 'stream', 'street', 'strength', 'stress', 'stretch', 'strike', 'string', 'strip', 'stroke', 'strong', 'strongly', 'struggle', 'student', 'studio', 'study', 'stuff', 'stupid', 'style', 'subject', 'submit', 'succeed', 'success', 'such', 'sudden', 'suddenly', 'sue', 'suffer', 'sugar', 'suggest', 'suicide', 'suit', 'summer', 'summit', 'sun', 'super', 'supply', 'support', 'suppose', 'supposed', 'sure', 'surely', 'surface', 'surgery', 'surprise', 'surround', 'survey', 'survival', 'survive', 'survivor', 'suspect', 'sustain', 'swear', 'sweep', 'sweet', 'swim', 'swing', 'switch', 'symbol', 'symptom', 'system', 'table', 'tactic', 'tail', 'take', 'tale', 'talent', 'talk', 'tall', 'tank', 'tap', 'tape', 'target', 'task', 'taste', 'tax', 'taxpayer', 'tea', 'teach', 'teacher', 'teaching', 'team', 'tear', 'teaspoon', 'teen', 'teenager', 'tell', 'ten', 'tend', 'tendency', 'tennis', 'tension', 'tent', 'term', 'terms', 'terrible', 'terror', 'test', 'testify', 'testing', 'text', 'than', 'thank', 'thanks', 'that', 'the', 'theater', 'their', 'them', 'theme', 'then', 'theory', 'therapy', 'there', 'these', 'they', 'thick', 'thin', 'thing', 'think', 'thinking', 'third', 'thirty', 'this', 'those', 'though', 'thought', 'thousand', 'threat', 'threaten', 'three', 'throat', 'through', 'throw', 'thus', 'ticket', 'tie', 'tight', 'time', 'tiny', 'tip', 'tire', 'tired', 'tissue', 'title', 'tobacco', 'today', 'toe', 'together', 'tomato', 'tomorrow', 'tone', 'tongue', 'tonight', 'too', 'tool', 'tooth', 'top', 'topic', 'toss', 'total', 'totally', 'touch', 'tough', 'tour', 'tourist', 'toward', 'towards', 'tower', 'town', 'toy', 'trace', 'track', 'trade', 'traffic', 'tragedy', 'trail', 'train', 'training', 'transfer', 'travel', 'treat', 'treaty', 'tree', 'trend', 'trial', 'tribe', 'trick', 'trip', 'troop', 'trouble', 'truck', 'true', 'truly', 'trust', 'truth', 'try', 'tube', 'tunnel', 'turn', 'twelve', 'twenty', 'twice', 'twin', 'two', 'type', 'typical', 'ugly', 'ultimate', 'unable', 'uncle', 'under', 'undergo', 'uniform', 'union', 'unique', 'unit', 'universe', 'unknown', 'unless', 'unlike', 'unlikely', 'until', 'unusual', 'upon', 'upper', 'urban', 'urge', 'use', 'used', 'useful', 'user', 'usual', 'usually', 'utility', 'vacation', 'valley', 'valuable', 'value', 'variable', 'variety', 'various', 'vary', 'vast', 'vehicle', 'venture', 'version', 'versus', 'very', 'vessel', 'veteran', 'via', 'victim', 'victory', 'video', 'view', 'viewer', 'village', 'violate', 'violence', 'violent', 'virtue', 'virus', 'visible', 'vision', 'visit', 'visitor', 'visual', 'vital', 'voice', 'volume', 'vote', 'voter', 'wage', 'wait', 'wake', 'walk', 'wall', 'wander', 'want', 'war', 'warm', 'warn', 'warning', 'wash', 'waste', 'watch', 'water', 'wave', 'way', 'weak', 'wealth', 'wealthy', 'weapon', 'wear', 'weather', 'wedding', 'week', 'weekend', 'weekly', 'weigh', 'weight', 'welcome', 'welfare', 'well', 'west', 'western', 'wet', 'what', 'whatever', 'wheel', 'when', 'whenever', 'where', 'whereas', 'whether', 'which', 'while', 'whisper', 'white', 'who', 'whole', 'whom', 'whose', 'why', 'wide', 'widely', 'wife', 'wild', 'will', 'willing', 'win', 'wind', 'window', 'wine', 'wing', 'winner', 'winter', 'wipe', 'wire', 'wisdom', 'wise', 'wish', 'with', 'withdraw', 'within', 'without', 'witness', 'woman', 'wonder', 'wood', 'wooden', 'word', 'work', 'worker', 'working', 'works', 'workshop', 'world', 'worried', 'worry', 'worth', 'would', 'wound', 'wrap', 'write', 'writer', 'writing', 'wrong', 'yard', 'yeah', 'year', 'yell', 'yellow', 'yes', 'yet', 'yield', 'you', 'young', 'your', 'yours', 'yourself', 'youth', 'zone']);
 var $author$project$BoardGameFramework$roomGenerator = function () {
 	var _v0 = $author$project$Words$words;
 	if (_v0.b) {
@@ -5480,7 +5480,7 @@ var $author$project$BoardGameFramework$roomGenerator = function () {
 }();
 var $author$project$BoardGameFramework$Lobby$forNewUrlAtInit = function (_v0) {
 	var lob = _v0;
-	var _v1 = lob.H.bl;
+	var _v1 = lob.z.bm;
 	if (_v1.$ === 1) {
 		return _Utils_Tuple3(
 			_Utils_update(
@@ -5520,10 +5520,10 @@ var $author$project$BoardGameFramework$Lobby$lobby = F3(
 				x: '',
 				ad: config.ad,
 				as: config.as,
-				bq: $author$project$BoardGameFramework$Lobby$Real(key),
+				aW: $author$project$BoardGameFramework$Lobby$Real(key),
 				S: config.S,
 				ag: config.ag,
-				H: url_
+				z: url_
 			});
 	});
 var $author$project$Main$InLobby = {$: 0};
@@ -5559,7 +5559,7 @@ var $author$project$Main$changeRoom = F2(
 			default:
 				var rec = progress.a;
 				return $author$project$Main$Playing(
-					{d: $author$project$Main$initClients, aY: rec.aY});
+					{d: $author$project$Main$initClients, aZ: rec.aZ});
 		}
 	});
 var $elm$json$Json$Encode$object = function (pairs) {
@@ -5716,7 +5716,7 @@ var $author$project$BoardGameFramework$purposeHelpDec = F2(
 							var make = F4(
 								function (to, from, num, time) {
 									return $author$project$BoardGameFramework$Welcome(
-										{dN: to, aZ: num, d2: from, a5: time});
+										{dN: to, a_: num, d2: from, a6: time});
 								});
 							var fromDec = A2(
 								$elm$json$Json$Decode$field,
@@ -5734,7 +5734,7 @@ var $author$project$BoardGameFramework$purposeHelpDec = F2(
 							var make = F6(
 								function (to, from, num, time, receipt, body) {
 									return $author$project$BoardGameFramework$Peer(
-										{cZ: body, ds: from, aZ: num, d5: receipt, a5: time, bB: to});
+										{cZ: body, ds: from, a_: num, d5: receipt, a6: time, bB: to});
 								});
 							var fromDec = A2($elm$json$Json$Decode$field, 'From', $author$project$BoardGameFramework$singletonStringDecoder);
 							var bodyDec = A2($elm$json$Json$Decode$field, 'Body', bodyDecoder);
@@ -5749,7 +5749,7 @@ var $author$project$BoardGameFramework$purposeHelpDec = F2(
 							var make = F4(
 								function (to, from, num, time) {
 									return $author$project$BoardGameFramework$Joiner(
-										{dI: from, aZ: num, a5: time, bB: to});
+										{dI: from, a_: num, a6: time, bB: to});
 								});
 							var fromDec = A2($elm$json$Json$Decode$field, 'From', $author$project$BoardGameFramework$singletonStringDecoder);
 							return A5($elm$json$Json$Decode$map4, make, toDec, fromDec, numDec, timeDec);
@@ -5763,7 +5763,7 @@ var $author$project$BoardGameFramework$purposeHelpDec = F2(
 							var make = F4(
 								function (to, from, num, time) {
 									return $author$project$BoardGameFramework$Leaver(
-										{dK: from, aZ: num, a5: time, bB: to});
+										{dK: from, a_: num, a6: time, bB: to});
 								});
 							var fromDec = A2($elm$json$Json$Decode$field, 'From', $author$project$BoardGameFramework$singletonStringDecoder);
 							return A5($elm$json$Json$Decode$map4, make, toDec, fromDec, numDec, timeDec);
@@ -5923,7 +5923,7 @@ var $author$project$Main$clientDecoder = A5(
 	$elm$json$Json$Decode$map4,
 	F4(
 		function (id, name, role, score) {
-			return {ar: id, f: name, o: role, E: score};
+			return {ar: id, f: name, o: role, F: score};
 		}),
 	A2($elm$json$Json$Decode$field, 'id', $elm$json$Json$Decode$string),
 	A2($elm$json$Json$Decode$field, 'name', $elm$json$Json$Decode$string),
@@ -6082,7 +6082,7 @@ var $author$project$BoardGameFramework$Sync$timingDecoder = function () {
 					var time = _v1.a;
 					return $elm$json$Json$Decode$succeed(
 						$author$project$BoardGameFramework$Sync$SomeTiming(
-							{aZ: num, a5: time}));
+							{a_: num, a6: time}));
 				} else {
 					return $elm$json$Json$Decode$fail('Timing encoded as list with more than two items');
 				}
@@ -6283,7 +6283,7 @@ var $author$project$Main$addClient = F2(
 			ar: nameForClient.ar,
 			f: nameForClient.f,
 			o: (clientIsPlayer || playerNeeded) ? $author$project$Main$Player($author$project$Main$Closed) : $author$project$Main$Observer,
-			E: 0
+			F: 0
 		};
 		return A2($author$project$BoardGameFramework$Clients$insert, client, cs);
 	});
@@ -6369,7 +6369,7 @@ var $author$project$Main$setDraftName = F2(
 var $author$project$BoardGameFramework$Lobby$forNewUrlInGame = F2(
 	function (state, _v0) {
 		var lob = _v0;
-		var _v1 = lob.H.bl;
+		var _v1 = lob.z.bm;
 		if (_v1.$ === 1) {
 			return $author$project$BoardGameFramework$Lobby$forNewUrlAtInit(lob);
 		} else {
@@ -6404,7 +6404,7 @@ var $author$project$BoardGameFramework$Lobby$setFragment = F2(
 		return _Utils_update(
 			url_,
 			{
-				bl: $elm$core$Maybe$Just(fragment)
+				bm: $elm$core$Maybe$Just(fragment)
 			});
 	});
 var $elm$url$Url$addPort = F2(
@@ -6439,7 +6439,7 @@ var $elm$url$Url$toString = function (url) {
 	return A3(
 		$elm$url$Url$addPrefixed,
 		'#',
-		url.bl,
+		url.bm,
 		A3(
 			$elm$url$Url$addPrefixed,
 			'?',
@@ -6459,12 +6459,31 @@ var $author$project$BoardGameFramework$Lobby$update = F3(
 				var req = msg.a;
 				if (!req.$) {
 					var url_ = req.a;
-					return _Utils_eq(url_, lob.H) ? _Utils_Tuple3(lob, state, $elm$core$Platform$Cmd$none) : A2(
-						$author$project$BoardGameFramework$Lobby$forNewUrlInGame,
-						state,
-						_Utils_update(
-							lob,
-							{H: url_}));
+					if (_Utils_eq(url_, lob.z)) {
+						return _Utils_Tuple3(lob, state, $elm$core$Platform$Cmd$none);
+					} else {
+						var _v3 = A2(
+							$author$project$BoardGameFramework$Lobby$forNewUrlInGame,
+							state,
+							_Utils_update(
+								lob,
+								{z: url_}));
+						var lob2 = _v3.a;
+						var state2 = _v3.b;
+						var cmd = _v3.c;
+						return _Utils_Tuple3(
+							lob2,
+							state2,
+							$elm$core$Platform$Cmd$batch(
+								_List_fromArray(
+									[
+										cmd,
+										A2(
+										$author$project$BoardGameFramework$Lobby$pushUrl,
+										lob.aW,
+										$elm$url$Url$toString(lob2.z))
+									])));
+					}
 				} else {
 					var str = req.a;
 					return _Utils_Tuple3(
@@ -6479,7 +6498,7 @@ var $author$project$BoardGameFramework$Lobby$update = F3(
 					state,
 					_Utils_update(
 						lob,
-						{H: url_}));
+						{z: url_}));
 			case 2:
 				var room = msg.a;
 				return _Utils_Tuple3(
@@ -6504,9 +6523,9 @@ var $author$project$BoardGameFramework$Lobby$update = F3(
 					state,
 					A2(
 						$author$project$BoardGameFramework$Lobby$pushUrl,
-						lob.bq,
+						lob.aW,
 						$elm$url$Url$toString(
-							A2($author$project$BoardGameFramework$Lobby$setFragment, lob.H, lob.x))));
+							A2($author$project$BoardGameFramework$Lobby$setFragment, lob.z, lob.x))));
 		}
 	});
 var $author$project$BoardGameFramework$Clients$map = F2(
@@ -6536,7 +6555,7 @@ var $author$project$BoardGameFramework$Sync$encodeTiming = function (t) {
 			$elm$json$Json$Encode$list,
 			$elm$json$Json$Encode$int,
 			_List_fromArray(
-				[rec.aZ, rec.a5]));
+				[rec.a_, rec.a6]));
 	} else {
 		return A2($elm$json$Json$Encode$list, $elm$json$Json$Encode$int, _List_Nil);
 	}
@@ -6666,7 +6685,7 @@ var $author$project$Main$encodeClientList = $author$project$BoardGameFramework$C
 			A2(
 				$elm$core$Basics$composeR,
 				function ($) {
-					return $.E;
+					return $.F;
 				},
 				$elm$json$Json$Encode$int))
 		]));
@@ -7157,7 +7176,7 @@ var $author$project$Main$playerList = function (clients) {
 		if (_v0.$ === 1) {
 			var hand = _v0.a;
 			return $elm$core$Maybe$Just(
-				{A: hand, ar: client.ar, f: client.f, E: client.E});
+				{B: hand, ar: client.ar, f: client.f, F: client.F});
 		} else {
 			return $elm$core$Maybe$Nothing;
 		}
@@ -7231,12 +7250,12 @@ var $author$project$Main$awardPoint = function (clients) {
 			function (points, client) {
 				return _Utils_update(
 					client,
-					{E: client.E + points});
+					{F: client.F + points});
 			});
 		var id2 = player2.ar;
 		var id1 = player1.ar;
 		var _v2 = function () {
-			var _v3 = A2($author$project$Main$winner, player1.A, player2.A);
+			var _v3 = A2($author$project$Main$winner, player1.B, player2.B);
 			switch (_v3) {
 				case 1:
 					return _Utils_Tuple2(1, 0);
@@ -7378,19 +7397,19 @@ var $author$project$BoardGameFramework$Sync$timing = function (env) {
 		case 0:
 			var rec = env.a;
 			return $author$project$BoardGameFramework$Sync$SomeTiming(
-				{aZ: rec.aZ, a5: rec.a5});
+				{a_: rec.a_, a6: rec.a6});
 		case 2:
 			var rec = env.a;
 			return $author$project$BoardGameFramework$Sync$SomeTiming(
-				{aZ: rec.aZ, a5: rec.a5});
+				{a_: rec.a_, a6: rec.a6});
 		case 1:
 			var rec = env.a;
 			return $author$project$BoardGameFramework$Sync$SomeTiming(
-				{aZ: rec.aZ, a5: rec.a5});
+				{a_: rec.a_, a6: rec.a6});
 		case 3:
 			var rec = env.a;
 			return $author$project$BoardGameFramework$Sync$SomeTiming(
-				{aZ: rec.aZ, a5: rec.a5});
+				{a_: rec.a_, a6: rec.a6});
 		case 4:
 			return $author$project$BoardGameFramework$Sync$NoTiming;
 		default:
@@ -7416,9 +7435,9 @@ var $author$project$BoardGameFramework$Sync$timingCompare = F2(
 			} else {
 				var rec1 = _v0.a.a;
 				var rec2 = _v0.b.a;
-				var _v5 = A2($elm$core$Basics$compare, rec1.a5, rec2.a5);
+				var _v5 = A2($elm$core$Basics$compare, rec1.a6, rec2.a6);
 				if (_v5 === 1) {
-					return A2($elm$core$Basics$compare, rec1.aZ, rec2.aZ);
+					return A2($elm$core$Basics$compare, rec1.a_, rec2.a_);
 				} else {
 					var nonEqual = _v5;
 					return nonEqual;
@@ -7571,7 +7590,7 @@ var $author$project$Main$updateWithEnvelope = F2(
 						return _Utils_Tuple2(
 							model,
 							$author$project$Main$sendMyNameCmd(
-								{ar: model.ae, f: state.aY}));
+								{ar: model.ae, f: state.aZ}));
 				}
 			case 1:
 				var rec = env.a;
@@ -7636,7 +7655,7 @@ var $author$project$Main$update = F2(
 							$author$project$Main$addClient(me),
 							state.d);
 						var progress = $author$project$Main$Playing(
-							{d: clients, aY: me.f});
+							{d: clients, aZ: me.f});
 						return _Utils_Tuple2(
 							_Utils_update(
 								model,
@@ -7753,7 +7772,7 @@ var $mdgriffith$elm_ui$Element$Font$color = function (fontColor) {
 			fontColor));
 };
 var $author$project$UI$fontSize = 20;
-var $mdgriffith$elm_ui$Internal$Style$classes = {cH: 'a', a6: 'atv', cK: 'ab', cL: 'cx', cM: 'cy', cN: 'acb', cO: 'accx', cP: 'accy', cQ: 'acr', bG: 'al', bH: 'ar', cR: 'at', a7: 'ah', a8: 'av', cT: 's', cX: 'bh', cY: 'b', c_: 'w7', c$: 'bd', c0: 'bdt', aM: 'bn', c1: 'bs', aN: 'cpe', c9: 'cp', da: 'cpx', db: 'cpy', N: 'c', aP: 'ctr', aQ: 'cb', aR: 'ccx', O: 'ccy', aB: 'cl', aS: 'cr', dd: 'ct', de: 'cptr', df: 'ctxt', dr: 'fcs', bR: 'focus-within', dt: 'fs', du: 'g', bm: 'hbh', bn: 'hc', bX: 'he', bo: 'hf', bY: 'hfp', dw: 'hv', dy: 'ic', dA: 'fr', aV: 'lbl', dC: 'iml', dD: 'imlf', dE: 'imlp', dF: 'implw', dG: 'it', dH: 'i', b2: 'lnk', av: 'nb', b5: 'notxt', dY: 'ol', dZ: 'or', af: 'oq', d3: 'oh', ca: 'pg', cb: 'p', d4: 'ppe', d9: 'ui', D: 'r', eb: 'sb', ec: 'sbx', ed: 'sby', ee: 'sbt', eg: 'e', eh: 'cap', ei: 'sev', en: 'sk', cw: 't', er: 'tc', es: 'w8', et: 'w2', eu: 'w9', ev: 'tj', a4: 'tja', ew: 'tl', ex: 'w3', ey: 'w5', ez: 'w4', eA: 'tr', eB: 'w6', eC: 'w1', eD: 'tun', cx: 'ts', ak: 'clr', eJ: 'u', bC: 'wc', cC: 'we', bD: 'wf', cD: 'wfp', bE: 'wrp'};
+var $mdgriffith$elm_ui$Internal$Style$classes = {cH: 'a', a7: 'atv', cK: 'ab', cL: 'cx', cM: 'cy', cN: 'acb', cO: 'accx', cP: 'accy', cQ: 'acr', bG: 'al', bH: 'ar', cR: 'at', a8: 'ah', a9: 'av', cT: 's', cX: 'bh', cY: 'b', c_: 'w7', c$: 'bd', c0: 'bdt', aM: 'bn', c1: 'bs', aN: 'cpe', c9: 'cp', da: 'cpx', db: 'cpy', N: 'c', aP: 'ctr', aQ: 'cb', aR: 'ccx', O: 'ccy', aB: 'cl', aS: 'cr', dd: 'ct', de: 'cptr', df: 'ctxt', dr: 'fcs', bR: 'focus-within', dt: 'fs', du: 'g', bn: 'hbh', bo: 'hc', bX: 'he', bp: 'hf', bY: 'hfp', dw: 'hv', dy: 'ic', dA: 'fr', aV: 'lbl', dC: 'iml', dD: 'imlf', dE: 'imlp', dF: 'implw', dG: 'it', dH: 'i', b2: 'lnk', av: 'nb', b5: 'notxt', dY: 'ol', dZ: 'or', af: 'oq', d3: 'oh', ca: 'pg', cb: 'p', d4: 'ppe', d9: 'ui', E: 'r', eb: 'sb', ec: 'sbx', ed: 'sby', ee: 'sbt', eg: 'e', eh: 'cap', ei: 'sev', en: 'sk', cw: 't', er: 'tc', es: 'w8', et: 'w2', eu: 'w9', ev: 'tj', a5: 'tja', ew: 'tl', ex: 'w3', ey: 'w5', ez: 'w4', eA: 'tr', eB: 'w6', eC: 'w1', eD: 'tun', cx: 'ts', ak: 'clr', eJ: 'u', bC: 'wc', cC: 'we', bD: 'wf', cD: 'wfp', bE: 'wrp'};
 var $mdgriffith$elm_ui$Internal$Model$Attr = function (a) {
 	return {$: 1, a: a};
 };
@@ -7789,7 +7808,7 @@ var $mdgriffith$elm_ui$Internal$Model$columnClass = $mdgriffith$elm_ui$Internal$
 var $mdgriffith$elm_ui$Internal$Model$gridClass = $mdgriffith$elm_ui$Internal$Style$classes.cT + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.du);
 var $mdgriffith$elm_ui$Internal$Model$pageClass = $mdgriffith$elm_ui$Internal$Style$classes.cT + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.ca);
 var $mdgriffith$elm_ui$Internal$Model$paragraphClass = $mdgriffith$elm_ui$Internal$Style$classes.cT + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.cb);
-var $mdgriffith$elm_ui$Internal$Model$rowClass = $mdgriffith$elm_ui$Internal$Style$classes.cT + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.D);
+var $mdgriffith$elm_ui$Internal$Model$rowClass = $mdgriffith$elm_ui$Internal$Style$classes.cT + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.E);
 var $mdgriffith$elm_ui$Internal$Model$singleClass = $mdgriffith$elm_ui$Internal$Style$classes.cT + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.eg);
 var $mdgriffith$elm_ui$Internal$Model$contextClasses = function (context) {
 	switch (context) {
@@ -7997,7 +8016,7 @@ var $mdgriffith$elm_ui$Internal$Model$getStyleName = function (style) {
 				A2($elm$core$List$map, $mdgriffith$elm_ui$Internal$Model$lengthClassName, template.I)) + ('-space-x-' + ($mdgriffith$elm_ui$Internal$Model$lengthClassName(template.ej.a) + ('-space-y-' + $mdgriffith$elm_ui$Internal$Model$lengthClassName(template.ej.b)))))));
 		case 9:
 			var pos = style.a;
-			return 'gp grid-pos-' + ($elm$core$String$fromInt(pos.D) + ('-' + ($elm$core$String$fromInt(pos.dc) + ('-' + ($elm$core$String$fromInt(pos.cB) + ('-' + $elm$core$String$fromInt(pos.bW)))))));
+			return 'gp grid-pos-' + ($elm$core$String$fromInt(pos.E) + ('-' + ($elm$core$String$fromInt(pos.dc) + ('-' + ($elm$core$String$fromInt(pos.cB) + ('-' + $elm$core$String$fromInt(pos.bW)))))));
 		case 11:
 			var selector = style.a;
 			var subStyle = style.b;
@@ -8159,7 +8178,7 @@ var $mdgriffith$elm_ui$Internal$Model$renderFocusStyle = function (focus) {
 								'border-color',
 								$mdgriffith$elm_ui$Internal$Model$formatColor(color));
 						},
-						focus.bb),
+						focus.bc),
 						A2(
 						$elm$core$Maybe$map,
 						function (color) {
@@ -8207,7 +8226,7 @@ var $mdgriffith$elm_ui$Internal$Model$renderFocusStyle = function (focus) {
 								'border-color',
 								$mdgriffith$elm_ui$Internal$Model$formatColor(color));
 						},
-						focus.bb),
+						focus.bc),
 						A2(
 						$elm$core$Maybe$map,
 						function (color) {
@@ -8382,7 +8401,7 @@ var $mdgriffith$elm_ui$Internal$Style$elDescription = _List_fromArray(
 		A2($mdgriffith$elm_ui$Internal$Style$Prop, 'white-space', 'pre'),
 		A2(
 		$mdgriffith$elm_ui$Internal$Style$Descriptor,
-		$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bm),
+		$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bn),
 		_List_fromArray(
 			[
 				A2($mdgriffith$elm_ui$Internal$Style$Prop, 'z-index', '0'),
@@ -8406,7 +8425,7 @@ var $mdgriffith$elm_ui$Internal$Style$elDescription = _List_fromArray(
 					[
 						A2(
 						$mdgriffith$elm_ui$Internal$Style$Descriptor,
-						$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bo),
+						$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bp),
 						_List_fromArray(
 							[
 								A2($mdgriffith$elm_ui$Internal$Style$Prop, 'flex-grow', '0')
@@ -8422,14 +8441,14 @@ var $mdgriffith$elm_ui$Internal$Style$elDescription = _List_fromArray(
 			])),
 		A2(
 		$mdgriffith$elm_ui$Internal$Style$Child,
-		$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bn),
+		$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bo),
 		_List_fromArray(
 			[
 				A2($mdgriffith$elm_ui$Internal$Style$Prop, 'height', 'auto')
 			])),
 		A2(
 		$mdgriffith$elm_ui$Internal$Style$Child,
-		$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bo),
+		$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bp),
 		_List_fromArray(
 			[
 				A2($mdgriffith$elm_ui$Internal$Style$Prop, 'flex-grow', '100000')
@@ -8600,7 +8619,7 @@ var $mdgriffith$elm_ui$Internal$Style$baseSheet = _List_fromArray(
 				A2($mdgriffith$elm_ui$Internal$Style$Prop, 'display', 'block'),
 				A2(
 				$mdgriffith$elm_ui$Internal$Style$Descriptor,
-				$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bo),
+				$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bp),
 				_List_fromArray(
 					[
 						A2(
@@ -8647,13 +8666,13 @@ var $mdgriffith$elm_ui$Internal$Style$baseSheet = _List_fromArray(
 				$mdgriffith$elm_ui$Internal$Style$Descriptor,
 				_Utils_ap(
 					$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.cT),
-					$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bo)),
+					$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bp)),
 				_List_fromArray(
 					[
 						A2($mdgriffith$elm_ui$Internal$Style$Prop, 'height', '100%'),
 						A2(
 						$mdgriffith$elm_ui$Internal$Style$Child,
-						$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bo),
+						$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bp),
 						_List_fromArray(
 							[
 								A2($mdgriffith$elm_ui$Internal$Style$Prop, 'height', '100%')
@@ -8708,7 +8727,7 @@ var $mdgriffith$elm_ui$Internal$Style$baseSheet = _List_fromArray(
 											A2($mdgriffith$elm_ui$Internal$Style$Prop, 'margin', '0 !important'),
 											A2(
 											$mdgriffith$elm_ui$Internal$Style$Child,
-											$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bo),
+											$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bp),
 											_List_fromArray(
 												[
 													A2($mdgriffith$elm_ui$Internal$Style$Prop, 'height', 'auto')
@@ -8752,7 +8771,7 @@ var $mdgriffith$elm_ui$Internal$Style$baseSheet = _List_fromArray(
 												])),
 											A2(
 											$mdgriffith$elm_ui$Internal$Style$Child,
-											$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bo),
+											$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bp),
 											_List_fromArray(
 												[
 													A2($mdgriffith$elm_ui$Internal$Style$Prop, 'height', 'auto')
@@ -8965,7 +8984,7 @@ var $mdgriffith$elm_ui$Internal$Style$baseSheet = _List_fromArray(
 				A2(
 				$mdgriffith$elm_ui$Internal$Style$Descriptor,
 				$mdgriffith$elm_ui$Internal$Style$dot(
-					_Utils_ap($mdgriffith$elm_ui$Internal$Style$classes.a6, $mdgriffith$elm_ui$Internal$Style$classes.ak)) + ':active',
+					_Utils_ap($mdgriffith$elm_ui$Internal$Style$classes.a7, $mdgriffith$elm_ui$Internal$Style$classes.ak)) + ':active',
 				_List_fromArray(
 					[
 						A2($mdgriffith$elm_ui$Internal$Style$Prop, 'opacity', '0')
@@ -8973,7 +8992,7 @@ var $mdgriffith$elm_ui$Internal$Style$baseSheet = _List_fromArray(
 				A2(
 				$mdgriffith$elm_ui$Internal$Style$Descriptor,
 				$mdgriffith$elm_ui$Internal$Style$dot(
-					_Utils_ap($mdgriffith$elm_ui$Internal$Style$classes.a6, $mdgriffith$elm_ui$Internal$Style$classes.af)) + ':active',
+					_Utils_ap($mdgriffith$elm_ui$Internal$Style$classes.a7, $mdgriffith$elm_ui$Internal$Style$classes.af)) + ':active',
 				_List_fromArray(
 					[
 						A2($mdgriffith$elm_ui$Internal$Style$Prop, 'opacity', '1')
@@ -9013,7 +9032,7 @@ var $mdgriffith$elm_ui$Internal$Style$baseSheet = _List_fromArray(
 						A2($mdgriffith$elm_ui$Internal$Style$Prop, 'overflow-x', 'auto'),
 						A2(
 						$mdgriffith$elm_ui$Internal$Style$Descriptor,
-						$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.D),
+						$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.E),
 						_List_fromArray(
 							[
 								A2($mdgriffith$elm_ui$Internal$Style$Prop, 'flex-shrink', '1')
@@ -9119,7 +9138,7 @@ var $mdgriffith$elm_ui$Internal$Style$baseSheet = _List_fromArray(
 				$mdgriffith$elm_ui$Internal$Style$elDescription),
 				A2(
 				$mdgriffith$elm_ui$Internal$Style$Descriptor,
-				$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.D),
+				$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.E),
 				_List_fromArray(
 					[
 						A2($mdgriffith$elm_ui$Internal$Style$Prop, 'display', 'flex'),
@@ -9147,7 +9166,7 @@ var $mdgriffith$elm_ui$Internal$Style$baseSheet = _List_fromArray(
 							])),
 						A2(
 						$mdgriffith$elm_ui$Internal$Style$Child,
-						$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bo),
+						$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bp),
 						_List_fromArray(
 							[
 								A2($mdgriffith$elm_ui$Internal$Style$Prop, 'align-self', 'stretch !important')
@@ -9334,7 +9353,7 @@ var $mdgriffith$elm_ui$Internal$Style$baseSheet = _List_fromArray(
 							])),
 						A2(
 						$mdgriffith$elm_ui$Internal$Style$Child,
-						$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bo),
+						$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bp),
 						_List_fromArray(
 							[
 								A2($mdgriffith$elm_ui$Internal$Style$Prop, 'flex-grow', '100000')
@@ -9692,7 +9711,7 @@ var $mdgriffith$elm_ui$Internal$Style$baseSheet = _List_fromArray(
 						A2($mdgriffith$elm_ui$Internal$Style$Prop, 'overflow-wrap', 'break-word'),
 						A2(
 						$mdgriffith$elm_ui$Internal$Style$Descriptor,
-						$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bm),
+						$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.bn),
 						_List_fromArray(
 							[
 								A2($mdgriffith$elm_ui$Internal$Style$Prop, 'z-index', '0'),
@@ -9800,7 +9819,7 @@ var $mdgriffith$elm_ui$Internal$Style$baseSheet = _List_fromArray(
 							])),
 						A2(
 						$mdgriffith$elm_ui$Internal$Style$Child,
-						$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.D),
+						$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.E),
 						_List_fromArray(
 							[
 								A2($mdgriffith$elm_ui$Internal$Style$Prop, 'display', 'inline')
@@ -9967,7 +9986,7 @@ var $mdgriffith$elm_ui$Internal$Style$baseSheet = _List_fromArray(
 					])),
 				A2(
 				$mdgriffith$elm_ui$Internal$Style$Descriptor,
-				$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.a4),
+				$mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.a5),
 				_List_fromArray(
 					[
 						A2($mdgriffith$elm_ui$Internal$Style$Prop, 'text-align', 'justify-all')
@@ -10105,14 +10124,14 @@ var $mdgriffith$elm_ui$Internal$Style$inputTextReset = '\ninput[type="search"],\
 var $mdgriffith$elm_ui$Internal$Style$sliderReset = '\ninput[type=range] {\n  -webkit-appearance: none; \n  background: transparent;\n  position:absolute;\n  left:0;\n  top:0;\n  z-index:10;\n  width: 100%;\n  outline: dashed 1px;\n  height: 100%;\n  opacity: 0;\n}\n';
 var $mdgriffith$elm_ui$Internal$Style$thumbReset = '\ninput[type=range]::-webkit-slider-thumb {\n    -webkit-appearance: none;\n    opacity: 0.5;\n    width: 80px;\n    height: 80px;\n    background-color: black;\n    border:none;\n    border-radius: 5px;\n}\ninput[type=range]::-moz-range-thumb {\n    opacity: 0.5;\n    width: 80px;\n    height: 80px;\n    background-color: black;\n    border:none;\n    border-radius: 5px;\n}\ninput[type=range]::-ms-thumb {\n    opacity: 0.5;\n    width: 80px;\n    height: 80px;\n    background-color: black;\n    border:none;\n    border-radius: 5px;\n}\ninput[type=range][orient=vertical]{\n    writing-mode: bt-lr; /* IE */\n    -webkit-appearance: slider-vertical;  /* WebKit */\n}\n';
 var $mdgriffith$elm_ui$Internal$Style$trackReset = '\ninput[type=range]::-moz-range-track {\n    background: transparent;\n    cursor: pointer;\n}\ninput[type=range]::-ms-track {\n    background: transparent;\n    cursor: pointer;\n}\ninput[type=range]::-webkit-slider-runnable-track {\n    background: transparent;\n    cursor: pointer;\n}\n';
-var $mdgriffith$elm_ui$Internal$Style$overrides = '@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {' + ($mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.cT) + ($mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.D) + (' > ' + ($mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.cT) + (' { flex-basis: auto !important; } ' + ($mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.cT) + ($mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.D) + (' > ' + ($mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.cT) + ($mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.aP) + (' { flex-basis: auto !important; }}' + ($mdgriffith$elm_ui$Internal$Style$inputTextReset + ($mdgriffith$elm_ui$Internal$Style$sliderReset + ($mdgriffith$elm_ui$Internal$Style$trackReset + ($mdgriffith$elm_ui$Internal$Style$thumbReset + $mdgriffith$elm_ui$Internal$Style$explainer)))))))))))))));
+var $mdgriffith$elm_ui$Internal$Style$overrides = '@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {' + ($mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.cT) + ($mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.E) + (' > ' + ($mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.cT) + (' { flex-basis: auto !important; } ' + ($mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.cT) + ($mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.E) + (' > ' + ($mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.cT) + ($mdgriffith$elm_ui$Internal$Style$dot($mdgriffith$elm_ui$Internal$Style$classes.aP) + (' { flex-basis: auto !important; }}' + ($mdgriffith$elm_ui$Internal$Style$inputTextReset + ($mdgriffith$elm_ui$Internal$Style$sliderReset + ($mdgriffith$elm_ui$Internal$Style$trackReset + ($mdgriffith$elm_ui$Internal$Style$thumbReset + $mdgriffith$elm_ui$Internal$Style$explainer)))))))))))))));
 var $elm$core$String$concat = function (strings) {
 	return A2($elm$core$String$join, '', strings);
 };
 var $mdgriffith$elm_ui$Internal$Style$Intermediate = $elm$core$Basics$identity;
 var $mdgriffith$elm_ui$Internal$Style$emptyIntermediate = F2(
 	function (selector, closing) {
-		return {aO: closing, d2: _List_Nil, V: _List_Nil, F: selector};
+		return {aO: closing, d2: _List_Nil, V: _List_Nil, G: selector};
 	});
 var $mdgriffith$elm_ui$Internal$Style$renderRules = F2(
 	function (_v0, rulesToRender) {
@@ -10141,7 +10160,7 @@ var $mdgriffith$elm_ui$Internal$Style$renderRules = F2(
 							{
 								d2: A2(
 									$elm$core$List$cons,
-									{aO: '\n}', d2: _List_Nil, V: props, F: '@supports (' + (prop + (':' + (value + (') {' + parent.F))))},
+									{aO: '\n}', d2: _List_Nil, V: props, G: '@supports (' + (prop + (':' + (value + (') {' + parent.G))))},
 									rendered.d2)
 							});
 					case 5:
@@ -10154,7 +10173,7 @@ var $mdgriffith$elm_ui$Internal$Style$renderRules = F2(
 									$elm$core$List$cons,
 									A2(
 										$mdgriffith$elm_ui$Internal$Style$renderRules,
-										A2($mdgriffith$elm_ui$Internal$Style$emptyIntermediate, parent.F + (' + ' + selector), ''),
+										A2($mdgriffith$elm_ui$Internal$Style$emptyIntermediate, parent.G + (' + ' + selector), ''),
 										adjRules),
 									rendered.d2)
 							});
@@ -10168,7 +10187,7 @@ var $mdgriffith$elm_ui$Internal$Style$renderRules = F2(
 									$elm$core$List$cons,
 									A2(
 										$mdgriffith$elm_ui$Internal$Style$renderRules,
-										A2($mdgriffith$elm_ui$Internal$Style$emptyIntermediate, parent.F + (' > ' + child), ''),
+										A2($mdgriffith$elm_ui$Internal$Style$emptyIntermediate, parent.G + (' > ' + child), ''),
 										childRules),
 									rendered.d2)
 							});
@@ -10182,7 +10201,7 @@ var $mdgriffith$elm_ui$Internal$Style$renderRules = F2(
 									$elm$core$List$cons,
 									A2(
 										$mdgriffith$elm_ui$Internal$Style$renderRules,
-										A2($mdgriffith$elm_ui$Internal$Style$emptyIntermediate, parent.F + (' ' + child), ''),
+										A2($mdgriffith$elm_ui$Internal$Style$emptyIntermediate, parent.G + (' ' + child), ''),
 										childRules),
 									rendered.d2)
 							});
@@ -10198,7 +10217,7 @@ var $mdgriffith$elm_ui$Internal$Style$renderRules = F2(
 										$mdgriffith$elm_ui$Internal$Style$renderRules,
 										A2(
 											$mdgriffith$elm_ui$Internal$Style$emptyIntermediate,
-											_Utils_ap(parent.F, descriptor),
+											_Utils_ap(parent.G, descriptor),
 											''),
 										descriptorRules),
 									rendered.d2)
@@ -10212,7 +10231,7 @@ var $mdgriffith$elm_ui$Internal$Style$renderRules = F2(
 									$elm$core$List$cons,
 									A2(
 										$mdgriffith$elm_ui$Internal$Style$renderRules,
-										A2($mdgriffith$elm_ui$Internal$Style$emptyIntermediate, parent.F, ''),
+										A2($mdgriffith$elm_ui$Internal$Style$emptyIntermediate, parent.G, ''),
 										batched),
 									rendered.d2)
 							});
@@ -10237,7 +10256,7 @@ var $mdgriffith$elm_ui$Internal$Style$renderCompact = function (styleClasses) {
 		if (!_v2.b) {
 			return '';
 		} else {
-			return rule.F + ('{' + (renderValues(rule.V) + (rule.aO + '}')));
+			return rule.G + ('{' + (renderValues(rule.V) + (rule.aO + '}')));
 		}
 	};
 	var renderIntermediate = function (_v0) {
@@ -10612,7 +10631,7 @@ var $mdgriffith$elm_ui$Internal$Model$renderStyleRule = F3(
 				var yPx = $elm$core$String$fromInt(y) + 'px';
 				var xPx = $elm$core$String$fromInt(x) + 'px';
 				var single = '.' + $mdgriffith$elm_ui$Internal$Style$classes.eg;
-				var row = '.' + $mdgriffith$elm_ui$Internal$Style$classes.D;
+				var row = '.' + $mdgriffith$elm_ui$Internal$Style$classes.E;
 				var wrappedRow = '.' + ($mdgriffith$elm_ui$Internal$Style$classes.bE + row);
 				var right = '.' + $mdgriffith$elm_ui$Internal$Style$classes.bH;
 				var paragraph = '.' + $mdgriffith$elm_ui$Internal$Style$classes.cb;
@@ -10931,7 +10950,7 @@ var $mdgriffith$elm_ui$Internal$Model$renderStyleRule = F3(
 					' ',
 					_List_fromArray(
 						[
-							'-ms-grid-row: ' + ($elm$core$String$fromInt(position.D) + ';'),
+							'-ms-grid-row: ' + ($elm$core$String$fromInt(position.E) + ';'),
 							'-ms-grid-row-span: ' + ($elm$core$String$fromInt(position.bW) + ';'),
 							'-ms-grid-column: ' + ($elm$core$String$fromInt(position.dc) + ';'),
 							'-ms-grid-column-span: ' + ($elm$core$String$fromInt(position.cB) + ';')
@@ -10941,10 +10960,10 @@ var $mdgriffith$elm_ui$Internal$Model$renderStyleRule = F3(
 					' ',
 					_List_fromArray(
 						[
-							'grid-row: ' + ($elm$core$String$fromInt(position.D) + (' / ' + ($elm$core$String$fromInt(position.D + position.bW) + ';'))),
+							'grid-row: ' + ($elm$core$String$fromInt(position.E) + (' / ' + ($elm$core$String$fromInt(position.E + position.bW) + ';'))),
 							'grid-column: ' + ($elm$core$String$fromInt(position.dc) + (' / ' + ($elm$core$String$fromInt(position.dc + position.cB) + ';')))
 						]));
-				var _class = '.grid-pos-' + ($elm$core$String$fromInt(position.D) + ('-' + ($elm$core$String$fromInt(position.dc) + ('-' + ($elm$core$String$fromInt(position.cB) + ('-' + $elm$core$String$fromInt(position.bW)))))));
+				var _class = '.grid-pos-' + ($elm$core$String$fromInt(position.E) + ('-' + ($elm$core$String$fromInt(position.dc) + ('-' + ($elm$core$String$fromInt(position.cB) + ('-' + $elm$core$String$fromInt(position.bW)))))));
 				var modernGrid = _class + ('{' + (modernPosition + '}'));
 				var supports = '@supports (display:grid) {' + (modernGrid + '}');
 				var base = _class + ('{' + (msPosition + '}'));
@@ -11238,8 +11257,8 @@ var $mdgriffith$elm_ui$Internal$Model$toStyleSheetString = F2(
 		var combine = F2(
 			function (style, rendered) {
 				return {
-					a1: _Utils_ap(
-						rendered.a1,
+					a2: _Utils_ap(
+						rendered.a2,
 						A3($mdgriffith$elm_ui$Internal$Model$renderStyleRule, options, style, $elm$core$Maybe$Nothing)),
 					aH: function () {
 						var _v1 = $mdgriffith$elm_ui$Internal$Model$topLevelValue(style);
@@ -11255,10 +11274,10 @@ var $mdgriffith$elm_ui$Internal$Model$toStyleSheetString = F2(
 		var _v0 = A3(
 			$elm$core$List$foldl,
 			combine,
-			{a1: _List_Nil, aH: _List_Nil},
+			{a2: _List_Nil, aH: _List_Nil},
 			stylesheet);
 		var topLevel = _v0.aH;
-		var rules = _v0.a1;
+		var rules = _v0.a2;
 		return _Utils_ap(
 			$mdgriffith$elm_ui$Internal$Model$renderTopLevelValues(topLevel),
 			$elm$core$String$concat(rules));
@@ -11526,7 +11545,7 @@ var $elm$core$List$isEmpty = function (xs) {
 	}
 };
 var $elm$html$Html$text = $elm$virtual_dom$VirtualDom$text;
-var $mdgriffith$elm_ui$Internal$Model$textElementClasses = $mdgriffith$elm_ui$Internal$Style$classes.cT + (' ' + ($mdgriffith$elm_ui$Internal$Style$classes.cw + (' ' + ($mdgriffith$elm_ui$Internal$Style$classes.bC + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.bn)))));
+var $mdgriffith$elm_ui$Internal$Model$textElementClasses = $mdgriffith$elm_ui$Internal$Style$classes.cT + (' ' + ($mdgriffith$elm_ui$Internal$Style$classes.cw + (' ' + ($mdgriffith$elm_ui$Internal$Style$classes.bC + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.bo)))));
 var $mdgriffith$elm_ui$Internal$Model$textElement = function (str) {
 	return A2(
 		$elm$html$Html$div,
@@ -11539,7 +11558,7 @@ var $mdgriffith$elm_ui$Internal$Model$textElement = function (str) {
 				$elm$html$Html$text(str)
 			]));
 };
-var $mdgriffith$elm_ui$Internal$Model$textElementFillClasses = $mdgriffith$elm_ui$Internal$Style$classes.cT + (' ' + ($mdgriffith$elm_ui$Internal$Style$classes.cw + (' ' + ($mdgriffith$elm_ui$Internal$Style$classes.bD + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.bo)))));
+var $mdgriffith$elm_ui$Internal$Model$textElementFillClasses = $mdgriffith$elm_ui$Internal$Style$classes.cT + (' ' + ($mdgriffith$elm_ui$Internal$Style$classes.cw + (' ' + ($mdgriffith$elm_ui$Internal$Style$classes.bD + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.bp)))));
 var $mdgriffith$elm_ui$Internal$Model$textElementFill = function (str) {
 	return A2(
 		$elm$html$Html$div,
@@ -11901,21 +11920,21 @@ var $mdgriffith$elm_ui$Internal$Model$addNodeName = F2(
 var $mdgriffith$elm_ui$Internal$Model$alignXName = function (align) {
 	switch (align) {
 		case 0:
-			return $mdgriffith$elm_ui$Internal$Style$classes.a7 + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.bG);
+			return $mdgriffith$elm_ui$Internal$Style$classes.a8 + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.bG);
 		case 2:
-			return $mdgriffith$elm_ui$Internal$Style$classes.a7 + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.bH);
+			return $mdgriffith$elm_ui$Internal$Style$classes.a8 + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.bH);
 		default:
-			return $mdgriffith$elm_ui$Internal$Style$classes.a7 + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.cL);
+			return $mdgriffith$elm_ui$Internal$Style$classes.a8 + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.cL);
 	}
 };
 var $mdgriffith$elm_ui$Internal$Model$alignYName = function (align) {
 	switch (align) {
 		case 0:
-			return $mdgriffith$elm_ui$Internal$Style$classes.a8 + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.cR);
+			return $mdgriffith$elm_ui$Internal$Style$classes.a9 + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.cR);
 		case 2:
-			return $mdgriffith$elm_ui$Internal$Style$classes.a8 + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.cK);
+			return $mdgriffith$elm_ui$Internal$Style$classes.a9 + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.cK);
 		default:
-			return $mdgriffith$elm_ui$Internal$Style$classes.a8 + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.cM);
+			return $mdgriffith$elm_ui$Internal$Style$classes.a9 + (' ' + $mdgriffith$elm_ui$Internal$Style$classes.cM);
 	}
 };
 var $elm$virtual_dom$VirtualDom$attribute = F2(
@@ -12082,13 +12101,13 @@ var $mdgriffith$elm_ui$Internal$Model$renderHeight = function (h) {
 		case 1:
 			return _Utils_Tuple3(
 				A2($mdgriffith$elm_ui$Internal$Flag$add, $mdgriffith$elm_ui$Internal$Flag$heightContent, $mdgriffith$elm_ui$Internal$Flag$none),
-				$mdgriffith$elm_ui$Internal$Style$classes.bn,
+				$mdgriffith$elm_ui$Internal$Style$classes.bo,
 				_List_Nil);
 		case 2:
 			var portion = h.a;
 			return (portion === 1) ? _Utils_Tuple3(
 				A2($mdgriffith$elm_ui$Internal$Flag$add, $mdgriffith$elm_ui$Internal$Flag$heightFill, $mdgriffith$elm_ui$Internal$Flag$none),
-				$mdgriffith$elm_ui$Internal$Style$classes.bo,
+				$mdgriffith$elm_ui$Internal$Style$classes.bp,
 				_List_Nil) : _Utils_Tuple3(
 				A2($mdgriffith$elm_ui$Internal$Flag$add, $mdgriffith$elm_ui$Internal$Flag$heightFill, $mdgriffith$elm_ui$Internal$Flag$none),
 				$mdgriffith$elm_ui$Internal$Style$classes.bY + (' height-fill-' + $elm$core$String$fromInt(portion)),
@@ -12170,7 +12189,7 @@ var $mdgriffith$elm_ui$Internal$Model$renderWidth = function (w) {
 					[
 						A3(
 						$mdgriffith$elm_ui$Internal$Model$Single,
-						$mdgriffith$elm_ui$Internal$Style$classes.cT + ('.' + ($mdgriffith$elm_ui$Internal$Style$classes.D + (' > ' + $mdgriffith$elm_ui$Internal$Style$dot(
+						$mdgriffith$elm_ui$Internal$Style$classes.cT + ('.' + ($mdgriffith$elm_ui$Internal$Style$classes.E + (' > ' + $mdgriffith$elm_ui$Internal$Style$dot(
 							'width-fill-' + $elm$core$String$fromInt(portion))))),
 						'flex-grow',
 						$elm$core$String$fromInt(portion * 100000))
@@ -12556,7 +12575,7 @@ var $mdgriffith$elm_ui$Internal$Model$gatherAttrRecursive = F8(
 											$elm$core$List$cons,
 											A3(
 												$mdgriffith$elm_ui$Internal$Model$Single,
-												$mdgriffith$elm_ui$Internal$Style$classes.cT + ('.' + ($mdgriffith$elm_ui$Internal$Style$classes.D + (' > ' + $mdgriffith$elm_ui$Internal$Style$dot(
+												$mdgriffith$elm_ui$Internal$Style$classes.cT + ('.' + ($mdgriffith$elm_ui$Internal$Style$classes.E + (' > ' + $mdgriffith$elm_ui$Internal$Style$dot(
 													'width-fill-' + $elm$core$String$fromInt(portion))))),
 												'flex-grow',
 												$elm$core$String$fromInt(portion * 100000)),
@@ -12648,7 +12667,7 @@ var $mdgriffith$elm_ui$Internal$Model$gatherAttrRecursive = F8(
 									elementAttrs = $temp$elementAttrs;
 									continue gatherAttrRecursive;
 								case 1:
-									var $temp$classes = $mdgriffith$elm_ui$Internal$Style$classes.bn + (' ' + classes),
+									var $temp$classes = $mdgriffith$elm_ui$Internal$Style$classes.bo + (' ' + classes),
 										$temp$node = node,
 										$temp$has = A2(
 										$mdgriffith$elm_ui$Internal$Flag$add,
@@ -12671,7 +12690,7 @@ var $mdgriffith$elm_ui$Internal$Model$gatherAttrRecursive = F8(
 								case 2:
 									var portion = height.a;
 									if (portion === 1) {
-										var $temp$classes = $mdgriffith$elm_ui$Internal$Style$classes.bo + (' ' + classes),
+										var $temp$classes = $mdgriffith$elm_ui$Internal$Style$classes.bp + (' ' + classes),
 											$temp$node = node,
 											$temp$has = A2(
 											$mdgriffith$elm_ui$Internal$Flag$add,
@@ -13149,7 +13168,7 @@ var $mdgriffith$elm_ui$Internal$Model$AllowHover = 1;
 var $mdgriffith$elm_ui$Internal$Model$Layout = 0;
 var $mdgriffith$elm_ui$Internal$Model$focusDefaultStyle = {
 	cV: $elm$core$Maybe$Nothing,
-	bb: $elm$core$Maybe$Nothing,
+	bc: $elm$core$Maybe$Nothing,
 	ef: $elm$core$Maybe$Just(
 		{
 			an: 0,
@@ -13440,7 +13459,7 @@ var $elm$core$List$singleton = function (value) {
 };
 var $author$project$BoardGameFramework$Lobby$urlString = function (_v0) {
 	var lob = _v0;
-	return $elm$url$Url$toString(lob.H);
+	return $elm$url$Url$toString(lob.z);
 };
 var $author$project$BoardGameFramework$Sync$value = function (_v0) {
 	var rec = _v0;
@@ -13565,7 +13584,7 @@ var $elm$html$Html$Attributes$href = function (url) {
 var $elm$html$Html$Attributes$rel = _VirtualDom_attribute('rel');
 var $mdgriffith$elm_ui$Element$link = F2(
 	function (attrs, _v0) {
-		var url = _v0.H;
+		var url = _v0.z;
 		var label = _v0.dJ;
 		return A4(
 			$mdgriffith$elm_ui$Internal$Model$element,
@@ -13684,7 +13703,7 @@ var $author$project$Main$viewInvitation = function (urlString) {
 							[$mdgriffith$elm_ui$Element$pointer, $mdgriffith$elm_ui$Element$Font$underline]),
 						{
 							dJ: $mdgriffith$elm_ui$Element$text(urlString),
-							H: urlString
+							z: urlString
 						}),
 						$mdgriffith$elm_ui$Element$text(' or give them room name ' + (roomString + '. ')),
 						$mdgriffith$elm_ui$Element$text('You can also '),
@@ -13694,7 +13713,7 @@ var $author$project$Main$viewInvitation = function (urlString) {
 							[$mdgriffith$elm_ui$Element$pointer, $mdgriffith$elm_ui$Element$Font$underline]),
 						{
 							dJ: $mdgriffith$elm_ui$Element$text('find another room'),
-							H: restartLink
+							z: restartLink
 						}),
 						$mdgriffith$elm_ui$Element$text('.')
 					]))
@@ -13737,9 +13756,9 @@ var $author$project$Main$viewPlayStatus = function (players) {
 				var player1 = players.a;
 				var _v1 = players.b;
 				var player2 = _v1.a;
-				var _v2 = _Utils_Tuple2(player1.A, player2.A);
+				var _v2 = _Utils_Tuple2(player1.B, player2.B);
 				if ((_v2.a.$ === 1) && (_v2.b.$ === 1)) {
-					var _v3 = A2($author$project$Main$winner, player1.A, player2.A);
+					var _v3 = A2($author$project$Main$winner, player1.B, player2.B);
 					switch (_v3) {
 						case 1:
 							return $author$project$Main$viewPlayStatusMessage(player1.f + ' wins!');
@@ -14061,14 +14080,14 @@ var $mdgriffith$elm_ui$Element$Border$color = function (clr) {
 			clr));
 };
 var $mdgriffith$elm_ui$Element$fromRgb = function (clr) {
-	return A4($mdgriffith$elm_ui$Internal$Model$Rgba, clr.a0, clr.aT, clr.aL, clr.aK);
+	return A4($mdgriffith$elm_ui$Internal$Model$Rgba, clr.a1, clr.aT, clr.aL, clr.aK);
 };
 var $mdgriffith$elm_ui$Element$toRgb = function (_v0) {
 	var r = _v0.a;
 	var g = _v0.b;
 	var b = _v0.c;
 	var a = _v0.d;
-	return {aK: a, aL: b, aT: g, a0: r};
+	return {aK: a, aL: b, aT: g, a1: r};
 };
 var $author$project$UI$lighten = F3(
 	function (base, paint, degree) {
@@ -14093,29 +14112,29 @@ var $author$project$UI$lighten = F3(
 					function ($) {
 						return $.aT;
 					}),
-				a0: adjust(
+				a1: adjust(
 					function ($) {
-						return $.a0;
+						return $.a1;
 					})
 			});
 	});
 var $author$project$UI$miniPaletteBlack = function () {
 	var closer = $author$project$UI$lighten($author$project$UI$black);
 	return {
-		a9: $author$project$UI$black,
-		bc: A2(closer, $author$project$UI$white, 0.95),
-		bd: A2(closer, $author$project$UI$white, 0.9),
-		be: _List_Nil,
-		bf: A2(closer, $author$project$UI$white, 0.75),
-		bg: A2(closer, $author$project$UI$white, 0.9),
-		bh: A2(closer, $author$project$UI$white, 0.25),
-		bi: _List_fromArray(
+		ba: $author$project$UI$black,
+		bd: A2(closer, $author$project$UI$white, 0.95),
+		be: A2(closer, $author$project$UI$white, 0.9),
+		bf: _List_Nil,
+		bg: A2(closer, $author$project$UI$white, 0.75),
+		bh: A2(closer, $author$project$UI$white, 0.9),
+		bi: A2(closer, $author$project$UI$white, 0.25),
+		bj: _List_fromArray(
 			[
 				$mdgriffith$elm_ui$Element$Background$color(
 				A2(closer, $author$project$UI$white, 0.8))
 			]),
-		bj: $author$project$UI$white,
-		a$: A2(closer, $author$project$UI$white, 0.8),
+		bk: $author$project$UI$white,
+		a0: A2(closer, $author$project$UI$white, 0.8),
 		cw: $author$project$UI$white,
 		eF: $author$project$UI$white
 	};
@@ -14289,16 +14308,16 @@ var $author$project$UI$button = function (desc) {
 	var attrs = function () {
 		var _v0 = desc.P;
 		if (_v0) {
-			return {ba: mp.bg, bb: mp.bh, bt: mp.bi, a3: mp.bj};
+			return {bb: mp.bh, bc: mp.bi, bt: mp.bj, a4: mp.bk};
 		} else {
-			return {ba: mp.bc, bb: mp.bd, bt: mp.be, a3: mp.bf};
+			return {bb: mp.bd, bc: mp.be, bt: mp.bf, a4: mp.bg};
 		}
 	}();
 	var textLabel = A2(
 		$mdgriffith$elm_ui$Element$paragraph,
 		_List_fromArray(
 			[
-				$mdgriffith$elm_ui$Element$Font$color(attrs.a3),
+				$mdgriffith$elm_ui$Element$Font$color(attrs.a4),
 				$mdgriffith$elm_ui$Element$Font$center
 			]),
 		_List_fromArray(
@@ -14309,12 +14328,12 @@ var $author$project$UI$button = function (desc) {
 		$mdgriffith$elm_ui$Element$Input$button,
 		_List_fromArray(
 			[
-				$mdgriffith$elm_ui$Element$Background$color(attrs.ba),
-				$mdgriffith$elm_ui$Element$Font$color(attrs.a3),
-				$mdgriffith$elm_ui$Element$Border$color(attrs.bb),
+				$mdgriffith$elm_ui$Element$Background$color(attrs.bb),
+				$mdgriffith$elm_ui$Element$Font$color(attrs.a4),
+				$mdgriffith$elm_ui$Element$Border$color(attrs.bc),
 				$mdgriffith$elm_ui$Element$Border$width(4),
 				$mdgriffith$elm_ui$Element$Border$rounded(10),
-				$mdgriffith$elm_ui$Element$width(desc.aW),
+				$mdgriffith$elm_ui$Element$width(desc.aX),
 				$mdgriffith$elm_ui$Element$padding(
 				$author$project$UI$scaledInt(-1)),
 				$mdgriffith$elm_ui$Element$mouseOver(attrs.bt)
@@ -14339,7 +14358,7 @@ var $author$project$UI$longButton = function (desc) {
 		{
 			P: desc.P,
 			Q: desc.Q,
-			aW: $mdgriffith$elm_ui$Element$px(230),
+			aX: $mdgriffith$elm_ui$Element$px(230),
 			T: desc.T,
 			W: desc.W
 		});
@@ -14389,10 +14408,10 @@ var $author$project$Main$viewPlayer = F3(
 		var maybeOtherHand = A2(
 			$elm$core$Maybe$map,
 			function ($) {
-				return $.A;
+				return $.B;
 			},
 			maybeOtherPlayer);
-		var _v0 = _Utils_Tuple3(player.A, playerIsMe, maybeOtherHand);
+		var _v0 = _Utils_Tuple3(player.B, playerIsMe, maybeOtherHand);
 		if (_v0.c.$ === 1) {
 			var _v1 = _v0.c;
 			return A2($author$project$Main$viewNamedPlayerMessage, name, 'is alone');
@@ -14559,7 +14578,7 @@ var $author$project$Main$viewOneScore = function (client) {
 				_List_fromArray(
 					[$mdgriffith$elm_ui$Element$alignRight]),
 				$mdgriffith$elm_ui$Element$text(
-					$elm$core$String$fromInt(client.E)))
+					$elm$core$String$fromInt(client.F)))
 			]));
 };
 var $author$project$Main$viewMaybeOneScore = function (maybeClient) {
@@ -14654,7 +14673,7 @@ var $author$project$UI$shortCentredButton = function (desc) {
 			{
 				P: desc.P,
 				Q: desc.Q,
-				aW: $mdgriffith$elm_ui$Element$px(120),
+				aX: $mdgriffith$elm_ui$Element$px(120),
 				T: desc.T,
 				W: desc.W
 			}));
@@ -15630,11 +15649,11 @@ var $mdgriffith$elm_ui$Element$Input$textHelper = F3(
 							$mdgriffith$elm_ui$Internal$Model$Attr(
 							$elm$html$Html$Events$onInput(textOptions.b8)),
 							$mdgriffith$elm_ui$Element$Input$hiddenLabelAttribute(textOptions.dJ),
-							$mdgriffith$elm_ui$Element$Input$spellcheck(textInput.G),
+							$mdgriffith$elm_ui$Element$Input$spellcheck(textInput.H),
 							A2(
 							$elm$core$Maybe$withDefault,
 							$mdgriffith$elm_ui$Internal$Model$NoAttribute,
-							A2($elm$core$Maybe$map, $mdgriffith$elm_ui$Element$Input$autofill, textInput.z))
+							A2($elm$core$Maybe$map, $mdgriffith$elm_ui$Element$Input$autofill, textInput.A))
 						]),
 					redistributed.l)),
 			$mdgriffith$elm_ui$Internal$Model$Unkeyed(_List_Nil));
@@ -15677,7 +15696,7 @@ var $mdgriffith$elm_ui$Element$Input$textHelper = F3(
 								$mdgriffith$elm_ui$Internal$Model$Unkeyed(
 									function () {
 										if (textOptions.cw === '') {
-											var _v1 = textOptions.a$;
+											var _v1 = textOptions.a0;
 											if (_v1.$ === 1) {
 												return _List_fromArray(
 													[
@@ -15725,7 +15744,7 @@ var $mdgriffith$elm_ui$Element$Input$textHelper = F3(
 									[
 										redistributed.a,
 										function () {
-										var _v2 = textOptions.a$;
+										var _v2 = textOptions.a0;
 										if (_v2.$ === 1) {
 											return _List_Nil;
 										} else {
@@ -15757,8 +15776,8 @@ var $mdgriffith$elm_ui$Element$Input$textHelper = F3(
 	});
 var $mdgriffith$elm_ui$Element$Input$text = $mdgriffith$elm_ui$Element$Input$textHelper(
 	{
-		z: $elm$core$Maybe$Nothing,
-		G: false,
+		A: $elm$core$Maybe$Nothing,
+		H: false,
 		p: $mdgriffith$elm_ui$Element$Input$TextInputNode('text')
 	});
 var $author$project$UI$inputText = function (desc) {
@@ -15769,7 +15788,7 @@ var $author$project$UI$inputText = function (desc) {
 			[
 				$mdgriffith$elm_ui$Element$width(
 				$mdgriffith$elm_ui$Element$px($author$project$UI$fontSize * desc.bS)),
-				$mdgriffith$elm_ui$Element$Background$color(mp.a9),
+				$mdgriffith$elm_ui$Element$Background$color(mp.ba),
 				$mdgriffith$elm_ui$Element$Font$color(mp.cw)
 			]),
 		{
@@ -15785,12 +15804,12 @@ var $author$project$UI$inputText = function (desc) {
 						]),
 					$mdgriffith$elm_ui$Element$text(desc.dJ))),
 			b8: desc.b8,
-			a$: $elm$core$Maybe$Just(
+			a0: $elm$core$Maybe$Just(
 				A2(
 					$mdgriffith$elm_ui$Element$Input$placeholder,
 					_List_fromArray(
 						[
-							$mdgriffith$elm_ui$Element$Font$color(mp.a$)
+							$mdgriffith$elm_ui$Element$Font$color(mp.a0)
 						]),
 					$mdgriffith$elm_ui$Element$text(desc.ce))),
 			cw: desc.cw
@@ -15818,7 +15837,7 @@ var $author$project$UI$shortButton = function (desc) {
 		{
 			P: desc.P,
 			Q: desc.Q,
-			aW: $mdgriffith$elm_ui$Element$px(120),
+			aX: $mdgriffith$elm_ui$Element$px(120),
 			T: desc.T,
 			W: desc.W
 		});
